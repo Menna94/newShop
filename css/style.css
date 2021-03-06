@@ -1,0 +1,467 @@
+* {
+  margin: 0px auto;
+  box-sizing: border-box; }
+
+@font-face {
+  font-family: "Gilory-Light";
+  src: url("../fonts/Gilroy-Light.ttf"); }
+@font-face {
+  font-family: "Gilory-Medium";
+  src: url("../fonts/Gilroy-Medium.ttf"); }
+@font-face {
+  font-family: "Gilory-Regular";
+  src: url("../fonts/Gilroy-Regular.ttf"); }
+@font-face {
+  font-family: "Gilory-Bold";
+  src: url("../fonts/Gilroy-Bold.ttf"); }
+@font-face {
+  font-family: "Gilory-Heavy";
+  src: url("../fonts/Gilroy-Heavy.ttf"); }
+body {
+  font-family: "Gilory-Regular", sans-serif;
+  font-size: 16px;
+  text-align: center; }
+
+section {
+  padding: 50px 0 25px; }
+
+h1,
+h2,
+h3 {
+  font-family: "Gilory-Bold"; }
+
+a {
+  color: #25c286;
+  font-size: 1.2rem;
+  font-weight: 600; }
+  a:hover {
+    color: #25c286; }
+
+p {
+  color: #2c3641;
+  font-size: 16px;
+  line-height: 26px; }
+
+ul li {
+  list-style: none;
+  margin-bottom: 5px; }
+
+.management .title__container, .management-lookUps .title__container .title__container, .management-manageTeam .title__container, .management-track .title__container, .management-insights .title__container, .management-integration .title__container, .managemnt-transition .title__container {
+  margin-bottom: 125px;
+  text-align: center; }
+  .management .title__container h1, .management-lookUps .title__container .title__container h1, .management-manageTeam .title__container h1, .management-track .title__container h1, .management-insights .title__container h1, .management-integration .title__container h1, .managemnt-transition .title__container h1 {
+    font-size: 54px; }
+  .management .title__container p, .management-lookUps .title__container .title__container p, .management-manageTeam .title__container p, .management-track .title__container p, .management-insights .title__container p, .management-integration .title__container p, .managemnt-transition .title__container p {
+    font-size: 18px; }
+  .management .title__container .split-divider, .management-lookUps .title__container .title__container .split-divider, .management-manageTeam .title__container .split-divider, .management-track .title__container .split-divider, .management-insights .title__container .split-divider, .management-integration .title__container .split-divider, .managemnt-transition .title__container .split-divider {
+    display: block;
+    width: 48px;
+    height: 4px;
+    margin: 15px auto 60px;
+    background-color: #0f76f9; }
+
+nav {
+  background-color: cyan !important;
+  color: #fff;
+  width: 100%; }
+  nav .nav-trigger {
+    background-color: brown;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    nav .nav-trigger .links__container {
+      background-color: gray;
+      right: 0; }
+    nav .nav-trigger .navbar-brand {
+      float: left; }
+
+.main-banner {
+  position: relative;
+  display: block;
+  overflow: visible;
+  min-height: 550px;
+  background-image: url("../images/hieve.png"), linear-gradient(135deg, #4c46f4, #0081fa), linear-gradient(90deg, #4669f4, #469af4);
+  background-position: 74% 73%, 0 0, 0 0;
+  background-size: 327px, auto, auto;
+  background-repeat: no-repeat, repeat, repeat; }
+  .main-banner .text__wrapper {
+    margin-top: 160px;
+    padding: 80px 0; }
+
+/* Get Started */
+.get-quickly {
+  background-image: linear-gradient(135deg, #4c46f4, #0081fa);
+  margin-bottom: 150px;
+  height: 498px;
+  padding: 125px 0; }
+  .get-quickly .text__container {
+    height: 138px;
+    text-align: center; }
+    .get-quickly .text__container div {
+      padding: 30px 20px;
+      color: #fff; }
+      .get-quickly .text__container div h2 {
+        font-size: 36px; }
+    .get-quickly .text__container .main-button {
+      padding: 16px 32px;
+      border-radius: 5px;
+      background-color: #21a371;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      border-color: transparent;
+      margin: 36px auto; }
+    .get-quickly .text__container p:last-child {
+      color: #c2deff; }
+      .get-quickly .text__container p:last-child a {
+        color: #c2deff; }
+
+.getStarted {
+  background-image: linear-gradient(135deg, #4c46f4, #0081fa);
+  margin-bottom: 150px;
+  height: 360px;
+  padding: 100px 0; }
+  .getStarted .text__container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    height: 138px;
+    text-align: left; }
+    .getStarted .text__container .logo .logo-text {
+      display: inline-block;
+      padding: 30px 20px;
+      color: #fff; }
+      .getStarted .text__container .logo .logo-text p:last-child {
+        color: #c2deff; }
+    .getStarted .text__container .logo img {
+      height: 100%;
+      margin-bottom: 40px; }
+    .getStarted .text__container .btns__container .main-button {
+      padding: 16px 32px;
+      border-radius: 5px;
+      background-color: #21a371;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      border-color: transparent; }
+    .getStarted .text__container .btns__container .info-button {
+      padding: 16px 32px;
+      border-radius: 5px;
+      background-color: #21a371;
+      box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
+      color: #fff;
+      font-size: 16px;
+      font-weight: 600;
+      border-color: transparent;
+      background-color: #0d4fa6; }
+
+.footer .logo img {
+  margin-bottom: 30px;
+  height: 100px; }
+.footer .logo p {
+  color: #707070;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  font-size: 14px; }
+.footer .company ul li > i {
+  font-size: 24px;
+  color: #707070;
+  margin-right: 15px;
+  text-align: left; }
+.footer .company a {
+  text-align: left;
+  color: #006cfa;
+  text-decoration: none;
+  font-size: 14px; }
+
+.paymentsBanner .text__wrapper {
+  color: #fff;
+  width: 510px;
+  text-align: left; }
+  .paymentsBanner .text__wrapper .main-title p {
+    font-size: 54px;
+    margin-bottom: 18px;
+    line-height: 70px;
+    font-family: "Gilory-Bold";
+    color: white; }
+  .paymentsBanner .text__wrapper > p {
+    margin: 18px 20px 50px 0;
+    margin-bottom: 57px;
+    color: white; }
+.paymentsBanner .img__wrapper {
+  position: relative;
+  z-index: 90; }
+  .paymentsBanner .img__wrapper .shop {
+    position: relative;
+    bottom: -27px;
+    width: 100%; }
+  .paymentsBanner .img__wrapper .phone {
+    position: absolute;
+    left: -13%;
+    top: 55%;
+    right: auto;
+    bottom: 0;
+    z-index: 5;
+    width: 150px; }
+
+.pay-features .row {
+  margin: 125px auto; }
+.pay-features .grey-liner {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: auto;
+  height: 100px;
+  margin-top: -60px;
+  background-position: 0 0;
+  background-image: url("../images/grey-liner.svg");
+  z-index: 1000; }
+.pay-features .text__wrapper {
+  width: 440px;
+  padding: 50px 0;
+  text-align: left; }
+  .pay-features .text__wrapper h3 {
+    font-size: 32px !important; }
+
+.in-store .row {
+  margin: 125px auto; }
+.in-store .title__container {
+  margin-bottom: 125px;
+  text-align: center; }
+  .in-store .title__container h1 {
+    font-size: 54px; }
+  .in-store .title__container p {
+    font-size: 18px; }
+  .in-store .title__container .split-divider {
+    display: block;
+    width: 48px;
+    height: 4px;
+    margin: 15px auto 60px;
+    background-color: #0f76f9; }
+.in-store .text__wrapper {
+  text-align: left;
+  padding: 50px 0;
+  width: 440px; }
+  .in-store .text__wrapper p:first-child {
+    font-size: 18px; }
+  .in-store .text__wrapper h2 {
+    margin-bottom: 30px; }
+
+.pay-overall-fs {
+  padding: 100px 0; }
+  .pay-overall-fs .row {
+    padding: 0 30px; }
+  .pay-overall-fs .img__container {
+    width: 105px; }
+    .pay-overall-fs .img__container img {
+      width: 100%;
+      height: 100%; }
+  .pay-overall-fs .img__title {
+    margin: 30px 0 16px;
+    font-size: 24px;
+    letter-spacing: -0.19px; }
+  .pay-overall-fs .img__txt {
+    max-width: 440px;
+    font-size: 18px; }
+
+.management, .management-lookUps .title__container, .management-manageTeam, .management-track, .management-insights, .management-integration, .managemnt-transition {
+  margin-bottom: 125px;
+  text-align: center; }
+  .management h1, .management-lookUps .title__container h1, .management-manageTeam h1, .management-track h1, .management-insights h1, .management-integration h1, .managemnt-transition h1 {
+    font-size: 36px !important; }
+  .management p, .management-lookUps .title__container p, .management-manageTeam p, .management-track p, .management-insights p, .management-integration p, .managemnt-transition p {
+    font-size: 18px; }
+  .management .split-divider, .management-lookUps .title__container .split-divider, .management-manageTeam .split-divider, .management-track .split-divider, .management-insights .split-divider, .management-integration .split-divider, .managemnt-transition .split-divider {
+    display: block;
+    width: 48px;
+    height: 4px;
+    margin: 15px auto 60px;
+    background-color: #0f76f9; }
+
+.management-banner .text__wrapper {
+  color: #fff; }
+
+.management-fs {
+  padding: 100px 0;
+  background-color: #f9f9fb;
+  z-index: 1; }
+  .management-fs .container {
+    position: relative;
+    padding: 50px 0 100px; }
+
+.management .icon__wrapper .icon__container:hover {
+  opacity: 0.5;
+  transition: 0.5s ease-in-out; }
+.management .icon__wrapper .icon__container i {
+  color: #25c286;
+  font-size: 30px;
+  margin-right: 10px;
+  background-color: white; }
+.management .text__wrapper {
+  color: #fff;
+  width: 510px;
+  text-align: left;
+  margin-bottom: 57px; }
+  .management .text__wrapper .main-title h3 {
+    font-size: 24px !important;
+    margin-bottom: 18px;
+    line-height: 24px;
+    font-family: "Gilory-Middle"; }
+  .management .text__wrapper > p {
+    margin: 18px 20px 50px 0;
+    margin-bottom: 15px; }
+  .management .text__wrapper button {
+    padding: 16px 32px;
+    border-radius: 5px;
+    background-color: #21a371;
+    box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-color: transparent; }
+
+.management-lookUps {
+  padding: 100px 0;
+  overflow: visible;
+  height: auto; }
+  .management-lookUps .img__title {
+    margin-top: 43px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black; }
+
+.management-manageTeam {
+  height: 360px;
+  height: 804px;
+  padding-top: 70px; }
+  .management-manageTeam img {
+    height: 100%; }
+  .management-manageTeam .text__wrapper {
+    color: #fff;
+    width: 510px;
+    text-align: left;
+    margin-bottom: 57px; }
+    .management-manageTeam .text__wrapper h3 {
+      font-size: 24px !important;
+      margin-bottom: 18px;
+      line-height: 24px;
+      font-family: "Gilory-Bold";
+      color: #333; }
+    .management-manageTeam .text__wrapper > p {
+      margin: 18px 20px 50px 0;
+      margin-bottom: 15px; }
+
+.management-track .text__wrapper {
+  color: #fff;
+  width: 510px;
+  text-align: left;
+  margin-bottom: 57px; }
+  .management-track .text__wrapper h3 {
+    font-size: 24px !important;
+    margin-bottom: 18px;
+    line-height: 24px;
+    font-family: "Gilory-Bold";
+    color: #333; }
+  .management-track .text__wrapper > p {
+    margin: 18px 20px 50px 0;
+    margin-bottom: 15px; }
+
+.management-insights .img__title {
+  margin: 30px 0 16px;
+  font-size: 20px;
+  letter-spacing: -0.19px;
+  font-family: "Gilory-Bold"; }
+.management-insights .img__text {
+  max-width: 440px;
+  font-size: 18px; }
+
+.management-integration .row {
+  display: flex;
+  position: relative;
+  margin: 50px auto 140px;
+  display: flex;
+  max-width: 980px; }
+.management-integration .blue {
+  height: 245px;
+  position: relative;
+  z-index: 2;
+  order: 1;
+  flex: 0 0 57%;
+  background-color: transparent; }
+  .management-integration .blue .text__wrapper {
+    width: 100%;
+    height: 100%;
+    padding: 40px 130px 40px 40px;
+    align-items: center;
+    background-color: #ebf4ff;
+    text-align: left; }
+    .management-integration .blue .text__wrapper p {
+      color: #474f57;
+      font-size: 16px;
+      line-height: 26px;
+      font-family: "Gilory-Medium";
+      margin-right: 10px; }
+.management-integration .divs {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  left: auto;
+  display: flex;
+  align-items: center; }
+  .management-integration .divs > div {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 244px;
+    height: 165px;
+    flex: 0 auto;
+    background-color: #fff;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding: 40px;
+    border-radius: 5px;
+    box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1); }
+    .management-integration .divs > div img {
+      width: 100%; }
+.management-integration .flipped {
+  margin-left: auto;
+  padding: 40px 40px 40px 130px; }
+  .management-integration .flipped .text__wrapper {
+    margin-left: auto;
+    padding: 40px 40px 40px 130px; }
+  .management-integration .flipped .divs {
+    right: auto;
+    left: 0;
+    z-index: 4; }
+
+.managemnt-transition .col-md-4 {
+  padding: 0 30px;
+  width: 326px; }
+.managemnt-transition .img__title {
+  margin: 30px 0 16px;
+  font-size: 20px;
+  letter-spacing: -0.19px;
+  font-family: "Gilory-Bold"; }
+.managemnt-transition .img__text {
+  max-width: 440px;
+  font-size: 16px;
+  font-family: "Gilory-Regular"; }
+  .managemnt-transition .img__text .icon__container:hover {
+    opacity: 0.5;
+    transition: 0.5s ease-in-out; }
+  .managemnt-transition .img__text .icon__container i {
+    color: #25c286;
+    font-size: 30px;
+    margin-right: 10px;
+    background-color: white; }
+
+/*# sourceMappingURL=style.css.map */

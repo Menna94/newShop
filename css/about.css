@@ -1,0 +1,277 @@
+* {
+  margin: 0px auto;
+  box-sizing: border-box;
+}
+@font-face {
+  font-family: "Gilory Light";
+  src: url("../fonts/Gilroy-Light.otf");
+}
+@font-face {
+  font-family: "Gilory ExtraBold";
+  src: url("../fonts/Gilroy-ExtraBold.otf");
+}
+body {
+  font-family: "Gilory Light", sans-serif;
+  font-size: 16px;
+}
+a {
+  text-decoration: none;
+  color: #006cfa;
+}
+a:hover {
+  color: #006cfa;
+}
+ul li {
+  list-style: none;
+  margin-bottom: 5px;
+}
+h1,
+h3 {
+  font-family: "Gilory ExtraBold";
+}
+button {
+  padding: 16px 32px;
+  border-radius: 5px;
+  background-color: #21a371;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+/***----------------- ABOUT PAGE -----------------***/
+/* Banner */
+/* .navbar-expand-avbar {
+    text-align: center;
+  } */
+.navbar .container-fluid {
+  background-color: rgb(175, 56, 56);
+  position: fixed;
+  top: 0;
+  height: 60px;
+  background-color: #7d828a;
+  width: 70%;
+}
+.navbar-nav {
+  /* float: right; */
+  background-color: rgb(168, 107, 26);
+}
+/* .navbar-white {
+    background-color: white;
+    box-shadow: 0px 0px 7px #777;
+    transition: 0.4s ease-out;
+  } */
+.navbar-nav .nav-item {
+  border-bottom: 4px solid transparent;
+  margin-right: 25px;
+}
+.navbar-nav .nav-item:hover:not(:first-child) {
+  border-bottom: 4px solid black;
+}
+
+.banner {
+  height: 450px;
+  background-image: url("../images/banner.svg") !important;
+  background-size: cover;
+  margin-bottom: 150px;
+}
+
+.banner .banner-text {
+  margin: 100px auto;
+  text-align: center;
+  width: 70%;
+  font-weight: bold;
+  color: #fff;
+}
+.banner button {
+  z-index: 2;
+}
+/* Our Vision */
+.ourVision {
+  margin-bottom: 150px;
+}
+/* Our Founder */
+.ourFounder {
+  position: relative;
+  height: 602px;
+  margin-bottom: 150px;
+  background-color: turquoise;
+}
+.our-founder-img {
+  margin-right: 20%;
+  width: 94%;
+  background-color: violet;
+}
+.our-founder-img img {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.our-founder-img__caption-overlay {
+  position: absolute;
+  padding: 8px;
+  color: #fff;
+  background-color: rgba(44, 54, 65, 0.7);
+  border-top-right-radius: 20px;
+  bottom: 0;
+  width: max-content;
+}
+.our-founder-text__container {
+  color: #fff;
+  width: 500px;
+  height: 320px;
+  border-radius: 8px;
+  background-color: #006cfa;
+  box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+  margin: 20px auto;
+  padding: 40px;
+  position: absolute;
+  left: auto;
+  top: 50%;
+  right: 5%;
+  bottom: 0;
+  transform: translate(0, -50%);
+  z-index: 1;
+}
+.our-founder-text {
+  text-align: left;
+  font-size: 16px;
+  line-height: 26px;
+  position: relative;
+  font-weight: 500;
+}
+/* our team */
+.ourTeam {
+  height: 330px;
+  margin-bottom: 150px;
+}
+.ourTeam button {
+  height: 50px;
+  width: 207px;
+}
+/* Supported By */
+.supportedBy {
+  height: 600px;
+}
+.supportedBy-text__container {
+  text-align: center;
+  padding: 40px;
+}
+.supportedBy-companies__container {
+  margin-top: 20px;
+}
+.supportedBy-companies__container a {
+  border: 1px solid black;
+  padding: 15px;
+  height: 245px;
+  width: 245px;
+  text-align: center;
+  justify-content: center;
+  background-color: #fff;
+  box-shadow: 1px 1px 13.77px 0 rgba(0, 0, 0, 0.1);
+}
+.supportedBy-companies__container .img__container {
+  padding: 40px 0;
+}
+.supportedBy-companies__container .eventures {
+  padding: 65px 0;
+}
+.supportedBy-companies__container img :not(:last-child) {
+  width: 100%;
+}
+
+/* Maintainance for Moms */
+.maintainanceForMoms {
+  height: 980px;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.momBanner {
+  height: 250px;
+  padding: 100px 0;
+}
+
+.mom__container {
+  height: 512px;
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.25),
+      rgba(0, 0, 0, 0.25)
+    ),
+    url("../images/moms.png");
+  background-size: cover;
+  background-position: 0 0, 50% 50%;
+}
+.mom-text__container {
+  position: relative;
+  top: 30%;
+  width: max-content;
+}
+.mom-text__container h3 {
+  margin-bottom: 30px;
+  color: #fff;
+  font-weight: 600;
+  line-height: 38px;
+  font-size: 32px;
+  font-family: "Gilory Light";
+  font-weight: 700;
+}
+
+.about-mom-text {
+  margin: 50px auto;
+  text-align: left;
+  column-count: 2;
+  column-gap: 25px;
+  color: #333;
+  line-height: 25px;
+  font-size: 20px;
+}
+
+/* Get Started */
+.getStarted {
+  background-image: linear-gradient(135deg, #4c46f4, #0081fa);
+  margin-bottom: 150px;
+  height: 360px;
+  padding: 100px 0;
+}
+.getStarted-text__container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  height: 138px;
+}
+.getStarted .logo .logo-text {
+  display: inline-block;
+  padding: 30px 20px;
+}
+.getStarted .logo img {
+  height: 100%;
+  margin-bottom: 40px;
+}
+
+.getStarted-btns__container button {
+  width: 171px;
+  height: 52px;
+  margin: 26px 10px;
+  box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.1);
+  color: #fff;
+}
+/* Footer */
+
+.footer .logo img {
+  margin-bottom: 30px;
+  height: 100px;
+}
+.footer .logo p {
+  color: #707070;
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+}
+ul li > i {
+  font-size: 24px;
+  color: #707070;
+  margin-right: 15px;
+}

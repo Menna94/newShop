@@ -1,0 +1,16 @@
+.main-banner {
+  position: relative;
+  display: block;
+  overflow: visible;
+  min-height: 550px;
+  background-image: url("../images/hieve.png"),
+    linear-gradient(135deg, #4c46f4, #0081fa),
+    linear-gradient(90deg, #4669f4, #469af4);
+  background-position: 74% 73%, 0 0, 0 0;
+  background-size: 327px, auto, auto;
+  background-repeat: no-repeat, repeat, repeat;
+  .text__wrapper {
+    margin-top: 160px;
+    padding: 80px 0;
+  }
+}

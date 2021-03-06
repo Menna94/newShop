@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="420px" height="315px" viewBox="0 0 420 315" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Business insight</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <path d="M5.45463254,0.178480327 L1.9622026,3.83721645" id="path-1"></path>
+        <filter x="-57.3%" y="-54.7%" width="214.5%" height="209.3%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M1.88528704,2.24489801 L0.180654588,3.83721645" id="path-3"></path>
+        <filter x="-84.9%" y="-118.8%" width="266.2%" height="332.2%" filterUnits="objectBoundingBox" id="filter-4">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M5.45463254,0.178480327 L1.9622026,3.83721645" id="path-5"></path>
+        <filter x="-57.3%" y="-54.7%" width="214.5%" height="209.3%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M1.88528704,2.24489801 L0.180654588,3.83721645" id="path-7"></path>
+        <filter x="-84.9%" y="-118.8%" width="266.2%" height="332.2%" filterUnits="objectBoundingBox" id="filter-8">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetInner1"></feOffset>
+            <feComposite in="shadowOffsetInner1" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner1"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner1" result="shadowMatrixInner1"></feColorMatrix>
+            <feOffset dx="0" dy="-2" in="SourceAlpha" result="shadowOffsetInner2"></feOffset>
+            <feComposite in="shadowOffsetInner2" in2="SourceAlpha" operator="arithmetic" k2="-1" k3="1" result="shadowInnerInner2"></feComposite>
+            <feColorMatrix values="0 0 0 0 1   0 0 0 0 1   0 0 0 0 1  0 0 0 1 0" type="matrix" in="shadowInnerInner2" result="shadowMatrixInner2"></feColorMatrix>
+            <feMerge>
+                <feMergeNode in="shadowMatrixInner1"></feMergeNode>
+                <feMergeNode in="shadowMatrixInner2"></feMergeNode>
+            </feMerge>
+        </filter>
+        <path d="M0.0537001684,0.217957208 L19.9325767,0.217957208 L19.9325767,164.792083 L6.05370017,164.792083 C2.73999167,164.792083 0.0537001684,162.105791 0.0537001684,158.792083 L0.0537001684,0.217957208 Z" id="path-9"></path>
+    </defs>
+    <g id="illustration---2019" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-877.000000, -2717.000000)">
+            <g id="Business-insight" transform="translate(877.704615, 2717.642030)">
+                <path d="M219.483622,31.3727954 C190.9727,56.6248626 165.546225,71.2222529 143.204198,75.1649663 C109.691158,81.0790365 3.96779451,84.9938305 24.6229042,166.606757 C45.278014,248.219683 130.607077,225.475773 179.890959,242.695126 C229.174842,259.914478 319.518182,331.613462 363.043293,305.810847 C406.568404,280.008232 420.263001,221.952348 366.805156,166.606757 C313.34731,111.261166 349.799877,26.7689974 306.82669,6.34832621 C278.177898,-7.26545461 249.063542,1.07603511 219.483622,31.3727954 Z" id="Path-8" fill-opacity="0.041311" fill="#006CFA" fill-rule="nonzero"></path>
+                <path d="M220.573503,38.2381835 L370.352837,38.2381835 C386.420907,38.2381835 399.446651,51.2639274 399.446651,67.3319969 L399.446651,67.3319969 C399.446651,83.4000664 386.420907,96.4258104 370.352837,96.4258104 L64.13701,96.4258104 C48.291762,96.4258104 35.4466506,109.270922 35.4466506,125.11617 L35.4466506,125.11617 C35.4466506,140.961418 48.291762,153.806529 64.13701,153.806529 L364.243295,153.806529 C380.243691,153.806529 393.214575,166.777413 393.214575,182.777809 L393.214575,182.777809 C393.214575,198.778205 380.243691,211.749088 364.243295,211.749088 L104.170698,211.749088 C82.6558251,211.749088 65.2145747,229.190339 65.2145747,250.705211 L65.2145747,250.705211 C65.2145747,272.220084 82.6558251,289.661334 104.170698,289.661334 L220.573503,289.661334" id="Path-30" stroke="#DADADC" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" stroke-dasharray="8"></path>
+                <g id="Group-29" transform="translate(170.557446, 289.661334) rotate(8.000000) translate(-170.557446, -289.661334) translate(147.557446, 266.661334)" fill="#FFFFFF" fill-rule="nonzero">
+                    <circle id="Oval" stroke="#666E78" stroke-width="3" cx="22.7700017" cy="22.7700017" r="22.7700017"></circle>
+                    <g id="Group-18" transform="translate(10.779838, 16.703575)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                        <g id="Group-16" transform="translate(0.833049, 0.215976)" stroke="#DADADC">
+                            <path d="M5.28919901,2.22146359 C5.28919901,0.994583125 4.10517148,0 2.64459951,0 C1.18402753,0 0,0.994583125 0,2.22146359" id="Oval-30"></path>
+                            <path d="M22.2146359,2.22146359 C22.2146359,0.994583125 21.0306083,0 19.5700363,0 C18.1094644,0 16.9254368,0.994583125 16.9254368,2.22146359" id="Oval-30-Copy"></path>
+                        </g>
+                        <path d="M4.77040743,15.9671796 C6.60336036,17.9034492 9.12017798,19.0984161 11.8974702,19.0984161 C14.7696127,19.0984161 17.3631854,17.8204342 19.2099207,15.7662207" id="Oval-31" stroke="#006CFA"></path>
+                    </g>
+                </g>
+                <circle id="Oval-2-Copy-23" fill="#F82722" fill-rule="nonzero" cx="139.966276" cy="304.149628" r="2"></circle>
+                <circle id="Oval-2-Copy-26" fill="#25C286" fill-rule="nonzero" cx="146.080299" cy="265.184188" r="1.5"></circle>
+                <circle id="Oval-2-Copy-19" fill="#006CFA" fill-rule="nonzero" cx="207.354321" cy="274.845397" r="2.96627611"></circle>
+                <g id="Group-76" transform="translate(389.423849, 162.500000) rotate(7.000000) translate(-389.423849, -162.500000) translate(370.423849, 135.500000)">
+                    <polygon id="Rectangle-49" stroke="#666E78" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="37.1680022 53.4125745 31.0247903 49.2690069 25.9527687 53.4125745 20.0486557 49.2690069 13.6296649 53.4125745 7.59988918 49.2690069 0.998857201 53.4125745 0.998857201 0.210285726 25.9527687 0.210285726 37.1680022 11.4308598"></polygon>
+                    <polygon id="Rectangle-50" stroke="#666E78" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="26.2331444 0.210285726 37.1680022 11.1451435 26.2331444 11.1451435"></polygon>
+                    <path d="M7.94193708,17.2054154 L28.9248195,17.2054154" id="Line-9" stroke="#DADADC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M7.94193708,21.4358634 L14.0165931,21.4358634" id="Line-9" stroke="#DADADC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M20.9385565,43.320047 L18.7885102,43.320047 L18.7885102,41.3195691 C17.5670284,41.1201435 16.6197711,40.6371669 15.9467097,39.8706248 C15.2736484,39.1040827 14.899731,38.2845805 14.8249464,37.4120935 L17.4050021,36.8325158 C17.4548585,37.4183285 17.6854408,37.907537 18.0967561,38.3001562 C18.5080714,38.6927753 19.0938753,38.8890819 19.8541853,38.8890819 C20.3278211,38.8890819 20.7142024,38.7831387 21.0133408,38.571249 C21.3124791,38.3593593 21.4620461,38.0726893 21.4620461,37.7112304 C21.4620461,37.1752742 21.0756648,36.8200527 20.3028906,36.6455553 L18.6389417,36.2529381 C17.5794933,36.0036561 16.7506431,35.5674192 16.1523663,34.9442142 C15.5540896,34.3210093 15.2549557,33.5731745 15.2549557,32.7006876 C15.2549557,31.6910955 15.5883653,30.8373175 16.2551947,30.139328 C16.922024,29.4413384 17.766454,29.0051015 18.7885102,28.8306041 L18.7885102,26.8114301 L20.9385565,26.8114301 L20.9385565,28.8866923 C21.8858281,29.098582 22.6274309,29.5005431 23.1633871,30.0925878 C23.6993434,30.6846326 24.042101,31.3483359 24.1916702,32.0837177 L21.5929185,32.7754718 C21.3934929,31.7409516 20.7578334,31.2236992 19.6859208,31.2236992 C19.1873568,31.2236992 18.8009756,31.3452223 18.5267654,31.5882723 C18.2525552,31.8313222 18.1154522,32.1148762 18.1154522,32.4389428 C18.1154522,32.9748991 18.4831376,33.3301206 19.2185194,33.504618 L20.8450763,33.859843 C22.0416298,34.1215891 22.9234516,34.5796379 23.4905681,35.2340031 C24.0576846,35.8883683 24.3412386,36.6642468 24.3412386,37.561662 C24.3412386,38.4590771 24.0358728,39.2567675 23.4251319,39.9547571 C22.814391,40.6527466 21.9855409,41.0952155 20.9385565,41.282177 L20.9385565,43.320047 Z" id="$" fill="#25C286"></path>
+                </g>
+                <circle id="Oval-2-Copy-16" fill="#006CFA" fill-rule="nonzero" cx="408.572698" cy="126.845397" r="3"></circle>
+                <circle id="Oval-2-Copy-17" fill="#25C286" fill-rule="nonzero" cx="367.275" cy="140.462795" r="2"></circle>
+                <circle id="Oval-2-Copy-18" fill="#F82722" fill-rule="nonzero" cx="417.061308" cy="150.988615" r="1.5"></circle>
+                <circle id="Oval-2-Copy-23" fill="#F82722" fill-rule="nonzero" cx="314.895814" cy="51.9789583" r="2"></circle>
+                <circle id="Oval-2-Copy-26" fill="#25C286" fill-rule="nonzero" cx="312.895814" cy="18.7171418" r="1.5"></circle>
+                <circle id="Oval-2-Copy-19" fill="#006CFA" fill-rule="nonzero" cx="276.62891" cy="4.98034904" r="2.96627611"></circle>
+                <g id="check-list" transform="translate(39.455804, 112.238202) rotate(-8.000000) translate(-39.455804, -112.238202) translate(17.955804, 84.738202)">
+                    <polygon id="Rectangle-49-Copy" stroke="#666E78" stroke-width="3.30000007" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" points="42.2321438 55.0000012 0 55.0000012 0 2.94642864 42.2321438 2.94642864"></polygon>
+                    <path d="M15.7142861,38.6337511 L35.3571436,38.6337511" id="Line-9" stroke="#DADADC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15.7142861,43.0337512 L30.4464292,43.0337512" id="Line-9" stroke="#DADADC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <rect id="Rectangle-58" stroke="#666E78" stroke-width="3.30000007" fill="#666E78" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" x="9.82142878" y="0" width="23.5714291" height="5.89285727" rx="2.94642864"></rect>
+                    <rect id="Rectangle-59" fill="#77848C" opacity="0.543591486" x="5.89285727" y="37.6516083" width="4.91071439" height="4.91071439" rx="1.10000002"></rect>
+                    <path d="M15.7142861,12.7678574 L35.3571436,12.7678574" id="Line-9" stroke="#DADADC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15.7142861,25.0430108 L35.3571436,25.0430108" id="Line-9-Copy" stroke="#DADADC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15.7142861,18.1282772 L30.4464292,18.1282772" id="Line-9" stroke="#DADADC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M15.7142861,29.3988431 L30.4464292,29.3988431" id="Line-9-Copy-2" stroke="#DADADC" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Group-37" transform="translate(5.892857, 11.785715)" stroke-linecap="round" stroke-linejoin="round">
+                        <g id="Line-21">
+                            <use fill="#EBF1F5" fill-rule="evenodd" xlink:href="#path-1"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                            <use stroke="#006CFA" stroke-width="2" xlink:href="#path-1"></use>
+                        </g>
+                        <g id="Line-21" transform="translate(1.071429, 3.086735) scale(1, -1) translate(-1.071429, -3.086735) ">
+                            <use fill="#EBF1F5" fill-rule="evenodd" xlink:href="#path-3"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-4)" xlink:href="#path-3"></use>
+                            <use stroke="#006CFA" stroke-width="2" xlink:href="#path-3"></use>
+                        </g>
+                    </g>
+                    <g id="Group-37" transform="translate(5.892857, 24.060868)" stroke-linecap="round" stroke-linejoin="round">
+                        <g id="Line-21">
+                            <use fill="#EBF1F5" fill-rule="evenodd" xlink:href="#path-5"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                            <use stroke="#25C286" stroke-width="2" xlink:href="#path-5"></use>
+                        </g>
+                        <g id="Line-21" transform="translate(1.071429, 3.086735) scale(1, -1) translate(-1.071429, -3.086735) ">
+                            <use fill="#EBF1F5" fill-rule="evenodd" xlink:href="#path-7"></use>
+                            <use fill="black" fill-opacity="1" filter="url(#filter-8)" xlink:href="#path-7"></use>
+                            <use stroke="#25C286" stroke-width="2" xlink:href="#path-7"></use>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-25" transform="translate(276.550906, 39.251605) rotate(5.000000) translate(-276.550906, -39.251605) translate(250.050906, 13.251605)">
+                    <g id="Group-77" transform="translate(0.000000, 0.000000)">
+                        <rect id="Rectangle-62" stroke="#DADADC" stroke-width="2.20000005" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" x="0.100000262" y="6.82285742" width="48.400001" height="10.3714288" rx="2.20000005"></rect>
+                        <rect id="Rectangle-62" stroke="#666E78" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" x="0.100000262" y="6.82285742" width="48.400001" height="38.0285723" rx="2.20000005"></rect>
+                        <g id="Group-43" transform="translate(9.780000, 0.600000)" fill-rule="nonzero" stroke="#666E78" stroke-linecap="round" stroke-linejoin="round" stroke-width="3">
+                            <path d="M0.691428586,0.667614504 L0.691428586,10.7171431" id="Line-28"></path>
+                            <path d="M28.348572,0.667614504 L28.348572,10.7171431" id="Line-28"></path>
+                        </g>
+                        <g id="Group-82" transform="translate(5.600000, 21.500001)">
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="1.80926084" cy="1.65000004" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="9.87250021" cy="1.65000004" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="18.8650004" cy="1.65000004" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="36.8500008" cy="1.65000004" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="27.8575006" cy="1.65000004" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="1.80926084" cy="9.09151616" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#006CFA" fill-rule="nonzero" cx="9.87250021" cy="9.09151616" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="18.8650004" cy="9.09151616" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="36.8500008" cy="9.3500002" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="27.8575006" cy="9.3500002" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="1.80926084" cy="16.5330323" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="9.87250021" cy="16.5330323" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="36.8500008" cy="17.0500004" r="1.65000004"></circle>
+                            <circle id="Oval-41" fill="#77848C" opacity="0.543591486" cx="27.8575006" cy="17.0500004" r="1.65000004"></circle>
+                        </g>
+                    </g>
+                    <g id="watch" transform="translate(28.264763, 22.064817)">
+                        <circle id="Oval-2-Copy-30" stroke="#666E78" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" cx="11.7971575" cy="17.5544111" r="11.3959994"></circle>
+                        <circle id="Oval-6" fill="#006CFA" cx="12.53858" cy="17.9775476" r="1.4903225"></circle>
+                        <path d="M20.2137408,7.0236772 L22.0021278,8.8120642" id="Line-22" stroke="#666E78" stroke-width="1.8479999" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" transform="translate(21.107934, 7.917871) scale(-1, 1) translate(-21.107934, -7.917871) "></path>
+                        <path d="M1.58470959,7.0236772 L3.37309659,8.8120642" id="Line-22" stroke="#666E78" stroke-width="1.8479999" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" transform="translate(2.478903, 7.917871) scale(-1, -1) translate(-2.478903, -7.917871) "></path>
+                        <path d="M11.7934187,6.15841175 L11.7934187,2.4326055" id="Line-23" stroke="#666E78" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M8.4971574,1.33260548 L15.0971575,1.33260548" id="Line-23" stroke="#666E78" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                        <path d="M14.6114273,9.03690167 C14.8986491,9.03690167 15.2117102,12.00722 15.5506108,17.9478566 L15.5506121,17.9478566 C15.5737104,18.3527509 15.2642036,18.6997076 14.8593093,18.7228059 C14.8453823,18.7236004 14.8314356,18.7239979 14.817486,18.7239979 L14.817486,18.7239979 C14.394337,18.7239979 14.051307,18.3809679 14.051307,17.9578189 C14.051307,17.9541138 14.0513338,17.9504089 14.0513876,17.9467043 C14.1375346,12.0068357 14.3242241,9.03690167 14.6114273,9.03690167 Z" id="Rectangle-60" fill="#006CFA" transform="translate(14.801548, 13.880450) rotate(29.000000) translate(-14.801548, -13.880450) "></path>
+                        <g id="Group-39" transform="translate(2.461161, 16.487225)" fill="#FFFFFF" fill-rule="nonzero" stroke="#DADADC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.20000005">
+                            <path d="M18.2230548,1.06718605 L17.1832949,1.06718605" id="Line-26"></path>
+                            <path d="M1.52354758,1.06718605 L0.483787701,1.06718605" id="Line-26"></path>
+                        </g>
+                        <g id="Group-39" transform="translate(11.567741, 17.736968) rotate(-270.000000) translate(-11.567741, -17.736968) translate(2.217741, 16.636968)" fill="#FFFFFF" fill-rule="nonzero" stroke="#DADADC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2.20000005">
+                            <path d="M17.9928356,0.87058377 L16.9530757,0.87058377" id="Line-26"></path>
+                            <path d="M1.35734489,0.87058377 L0.31758501,0.87058377" id="Line-26"></path>
+                        </g>
+                    </g>
+                </g>
+                <g id="Group-24" transform="translate(78.000000, 72.000000)">
+                    <rect id="Rectangle" stroke="#666E78" stroke-width="3" fill="#FFFFFF" fill-rule="nonzero" x="0.53842352" y="0.1151453" width="280" height="180" rx="8"></rect>
+                    <path d="M9.05370017,1.80124438 L272.032859,1.80124438 C275.898853,1.80124438 279.032859,4.93525114 279.032859,8.80124438 L279.032859,14.2179572 L2.05370017,14.2179572 L2.05370017,8.80124438 C2.05370017,4.93525114 5.18770692,1.80124438 9.05370017,1.80124438 Z" id="Rectangle" fill="#F5F7FA" fill-rule="nonzero"></path>
+                    <g id="Rectangle" transform="translate(2.000000, 14.000000)">
+                        <mask id="mask-10" fill="white">
+                            <use xlink:href="#path-9"></use>
+                        </mask>
+                        <use id="Mask" fill="#B7C2C8" fill-rule="nonzero" xlink:href="#path-9"></use>
+                        <g id="Group-49" mask="url(#mask-10)" fill="#899DA9" fill-rule="nonzero">
+                            <g transform="translate(6.900000, 27.100004)">
+                                <circle id="Oval" cx="3.43630766" cy="3.48637609" r="3.19999981"></circle>
+                                <circle id="Oval-Copy-41" cx="3.43630766" cy="19.4863751" r="3.19999981"></circle>
+                                <circle id="Oval-Copy-42" cx="3.43630766" cy="35.4863742" r="3.19999981"></circle>
+                                <circle id="Oval-Copy-43" cx="3.43630766" cy="51.4863732" r="3.19999981"></circle>
+                                <circle id="Oval-Copy-44" cx="3.43630766" cy="128.086369" r="3.19999981"></circle>
+                            </g>
+                        </g>
+                        <rect fill="#006CFA" fill-rule="nonzero" mask="url(#mask-10)" x="-0.691275714" y="-0.782042792" width="21.9286326" height="19"></rect>
+                    </g>
+                    <path d="M16.9403929,23.759803 C16.6648129,26.1522712 14.5861666,28.0118049 12.062807,28.0118049 C9.54167075,28.0118049 7.46446443,26.1555466 7.18595377,23.7661257 C6.53236917,23.5523668 6.06139051,22.9495449 6.06139051,22.2392915 C6.06139051,21.3502192 6.79937769,20.6294837 7.70973101,20.6294837 C7.78162295,20.6294837 7.85243993,20.6339785 7.92190338,20.6426962 C8.79351005,19.3087325 10.3223784,18.4241095 12.062807,18.4241095 C13.8023515,18.4241095 15.3305506,19.3078339 16.2023818,20.6406635 C16.2664254,20.6332807 16.3315933,20.6294837 16.3976693,20.6294837 C17.3080227,20.6294837 18.0460098,21.3502192 18.0460098,22.2392915 C18.0460098,22.9426631 17.5841137,23.5406751 16.9403929,23.759803 Z M7.28170889,22.9952786 C7.67401584,22.9952786 7.99204347,22.6846854 7.99204347,22.3015493 C7.99204347,21.9184131 7.67401584,21.6078199 7.28170889,21.6078199 C6.88940193,21.6078199 6.57137431,21.9184131 6.57137431,22.3015493 C6.57137431,22.6846854 6.88940193,22.9952786 7.28170889,22.9952786 Z M16.8256914,22.9952786 C17.2179984,22.9952786 17.536026,22.6846854 17.536026,22.3015493 C17.536026,21.9184131 17.2179984,21.6078199 16.8256914,21.6078199 C16.4333845,21.6078199 16.1153569,21.9184131 16.1153569,22.3015493 C16.1153569,22.6846854 16.4333845,22.9952786 16.8256914,22.9952786 Z M15.5660963,24.2391261 C15.5663208,24.2269645 15.5664334,24.2147829 15.5664334,24.2025817 C15.5664334,23.5561332 15.2503117,22.9645604 14.7266945,22.5085973 C14.9406519,22.2471725 15.0682952,21.9173119 15.0682952,21.5587727 C15.0682952,20.710069 14.3530801,20.0220587 13.4708175,20.0220587 C12.8740668,20.0220587 12.3537401,20.3368228 12.0794659,20.8031746 C11.8051918,20.3368228 11.2848651,20.0220587 10.6881144,20.0220587 C9.8058518,20.0220587 9.09063667,20.710069 9.09063667,21.5587727 C9.09063667,21.9054216 9.20995417,22.2252624 9.41123711,22.4823639 C8.86940171,22.941759 8.54096692,23.5436638 8.54096692,24.2025817 C8.54096692,24.2184682 8.54115784,24.2343217 8.54153806,24.2501408 C9.2801993,24.7134251 10.5733316,25.0205101 12.0451116,25.0205101 C13.5285247,25.0205101 14.8304548,24.7085515 15.5660963,24.2391261 Z M15.4949624,24.7291215 C14.7483185,25.174023 13.4818343,25.4666529 12.0451116,25.4666529 C10.6214945,25.4666529 9.3650243,25.1793373 8.61582272,24.7412584 C8.94982896,25.9246928 10.3621335,26.813343 12.0537002,26.813343 C13.7510446,26.813343 15.167216,25.9186118 15.4949624,24.7291215 Z M13.1272739,22.4180106 C12.7572928,22.4180106 12.4573639,22.1294902 12.4573639,21.7735822 C12.4573639,21.4176742 12.7572928,21.1291537 13.1272739,21.1291537 C13.497255,21.1291537 13.7971839,21.4176742 13.7971839,21.7735822 C13.7971839,22.1294902 13.497255,22.4180106 13.1272739,22.4180106 Z M10.9457721,22.4180106 C10.575791,22.4180106 10.2758621,22.1294902 10.2758621,21.7735822 C10.2758621,21.4176742 10.575791,21.1291537 10.9457721,21.1291537 C11.3157532,21.1291537 11.6156821,21.4176742 11.6156821,21.7735822 C11.6156821,22.1294902 11.3157532,22.4180106 10.9457721,22.4180106 Z" id="Shape" fill="#FFFFFF"></path>
+                    <rect id="Rectangle" stroke="#DADADC" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" x="34.8167869" y="57.8453968" width="236" height="109" rx="4"></rect>
+                    <rect id="Rectangle-83-Copy" fill="#25C286" fill-rule="nonzero" x="34.8167869" y="39" width="56" height="14" rx="2"></rect>
+                    <rect id="Rectangle-83-Copy-2" fill="#006CFA" fill-rule="nonzero" x="95.4827326" y="39" width="56" height="14" rx="2"></rect>
+                    <rect id="Rectangle-83-Copy-3" fill="#F82722" fill-rule="nonzero" x="156.148678" y="39" width="56" height="14" rx="2"></rect>
+                    <rect id="Rectangle-83-Copy-4" fill="#FC8D00" fill-rule="nonzero" x="216.814624" y="39" width="56" height="14" rx="2"></rect>
+                    <path d="M22,31.4673552 L279,31.4673552" id="Line-35" stroke="#DADADC" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <path d="M34.8167869,73.4673552 L270.930414,73.4673552" id="Line-35-Copy-3" stroke="#DADADC" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero"></path>
+                    <circle id="Oval" fill="#D2DBE8" fill-rule="nonzero" cx="10.5770755" cy="8.2596008" r="2"></circle>
+                    <circle id="Oval-Copy-10" fill="#D2DBE8" fill-rule="nonzero" cx="17.0382399" cy="8.2596008" r="2"></circle>
+                    <circle id="Oval-Copy-12" fill="#D2DBE8" fill-rule="nonzero" cx="23.4994043" cy="8.2596008" r="2"></circle>
+                    <g id="Group-22" transform="translate(32.500000, 23.000000) rotate(-45.000000) translate(-32.500000, -23.000000) translate(29.000000, 18.000000)" fill="#FFFFFF" fill-rule="nonzero" stroke="#B6B6BA" stroke-width="1.5">
+                        <circle id="Oval" cx="3.5" cy="3.5" r="3.07589052"></circle>
+                        <path d="M3.5,6.57589052 L3.5,9.41484618" id="Line-38" stroke-linecap="round" stroke-linejoin="round"></path>
+                    </g>
+                    <path d="M40.1650776,22.1174434 L94.6976297,22.1174434" id="Line-39" stroke="#B6B6BA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M225.148678,22.1174434 L243,22.1174434" id="Line-39-Copy-2" stroke="#B6B6BA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M40.9501806,66.187111 L95.4827326,66.187111" id="Line-39-Copy" stroke="#B6B6BA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M44.2454567,142.312752 C48.2920767,138.493111 51.8328693,134.355167 54.8678343,129.898919 C59.4202818,123.214547 59.4202818,123.214547 62.4552469,123.214547 C65.4902119,123.214547 71.560142,135.62838 77.6300721,135.62838 C83.7000021,135.62838 92.8048972,112.710535 98.8748273,112.710535 C104.944757,112.710535 115.567135,135.62838 121.637065,135.62838 C127.706995,135.62838 133.776925,123.214547 139.846855,123.214547 C145.916785,123.214547 150.028166,135.62838 156.539163,135.62838 C163.05016,135.62838 172.412587,113.665445 180,112.710535 C187.587413,111.755625 194.476226,129.898919 202.063638,129.898919 C209.651051,129.898919 218.755946,96.2491962 226.343359,96.2491962 C233.930771,96.2491962 246.070631,129.898919 252.140562,129.898919 C256.187182,129.898919 259.222147,129.898919 261.245457,129.898919" id="Path-28" stroke="#006CFA" stroke-width="2" fill-rule="nonzero"></path>
+                    <circle id="Oval" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="61.2009971" cy="122.865843" r="2"></circle>
+                    <circle id="Oval-Copy-34" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="44.2454567" cy="141.743425" r="2"></circle>
+                    <circle id="Oval-Copy-13" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="77.3452443" cy="135.424225" r="2.16137375"></circle>
+                    <circle id="Oval-Copy-14" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="98.6441064" cy="112.809239" r="2.16137375"></circle>
+                    <circle id="Oval-Copy-15" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="122.321359" cy="135.424225" r="2.16137375"></circle>
+                    <circle id="Oval-Copy-16" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="139.381906" cy="123.027217" r="2.16137375"></circle>
+                    <circle id="Oval-Copy-17" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="156.247201" cy="135.167557" r="2.16137375"></circle>
+                    <circle id="Oval-Copy-21" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="180.40683" cy="112.845397" r="2.16137375"></circle>
+                    <circle id="Oval-Copy-22" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="201.795112" cy="129.389928" r="2.16137375"></circle>
+                    <circle id="Oval-Copy-23" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="226.404123" cy="96.5" r="2.16137375"></circle>
+                    <circle id="Oval-Copy-32" stroke="#006CFA" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="261.14088" cy="130.287745" r="2.16137375"></circle>
+                    <polyline id="Path-29" stroke="#25C286" stroke-width="2" fill-rule="nonzero" points="44 128.978519 67.1679919 147.316547 99.2595412 141.203871 111.484893 150.372885 134.407429 150.372885 148.16095 141.203871 169.555316 147.316547 186.365175 128.978519 207.759541 144.260209 225 132 238.322921 141.203871 258 121"></polyline>
+                    <circle id="Oval-Copy-18" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="67.2009971" cy="146.865843" r="2"></circle>
+                    <circle id="Oval-Copy-33" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="44.2454567" cy="129.228554" r="2"></circle>
+                    <circle id="Oval-Copy-19" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="99.7226096" cy="141.26123" r="2"></circle>
+                    <circle id="Oval-Copy-20" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="111.427825" cy="150.372885" r="2"></circle>
+                    <circle id="Oval-Copy-24" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="134.103433" cy="150.372885" r="2"></circle>
+                    <circle id="Oval-Copy-25" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="148.58298" cy="141.26123" r="2"></circle>
+                    <circle id="Oval-Copy-26" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="169.685574" cy="146.865843" r="2"></circle>
+                    <circle id="Oval-Copy-27" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="186.370126" cy="129.228554" r="2"></circle>
+                    <circle id="Oval-Copy-28" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="207.72818" cy="143.743425" r="2"></circle>
+                    <circle id="Oval-Copy-29" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="225.037289" cy="132.39143" r="2"></circle>
+                    <circle id="Oval-Copy-30" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="238.269355" cy="141.26123" r="2"></circle>
+                    <circle id="Oval-Copy-31" stroke="#25C286" stroke-width="2" fill="#FFFFFF" fill-rule="nonzero" cx="256.979506" cy="121.280974" r="2"></circle>
+                    <path d="M265.930414,22.1174434 L271.930414,22.1174434" id="Line-40" stroke="#B6B6BA" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <g id="Group-23" transform="translate(214.565497, 18.617443)" fill="#FFFFFF" fill-rule="nonzero" stroke="#B6B6BA" stroke-width="1.5">
+                        <circle id="Oval" cx="2.9254659" cy="1.04936255" r="1.54501228"></circle>
+                        <path d="M2.9254659,4.48272384 C1.32961352,4.48272384 0.0359195614,5.13335529 0.0359195614,5.93594985 L0.0359195614,6.995875 L5.81501224,6.995875 L5.81501224,5.93594985 C5.81501224,5.13335529 4.52131828,4.48272384 2.9254659,4.48272384 Z" id="Path"></path>
+                    </g>
+                    <path d="M265.930414,22.1174434 L271.930414,22.1174434" id="Line-40-Copy" stroke="#B6B6BA" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero" stroke-linecap="round" stroke-linejoin="round" transform="translate(268.930414, 22.117443) rotate(-270.000000) translate(-268.930414, -22.117443) "></path>
+                    <path d="M257,25.2394018 C257.043077,25.2394018 257.083077,25.2363248 257.123077,25.2270941 C257.323077,25.1840172 257.486154,25.0486325 257.566154,24.8640172 C257.596923,24.790171 257.612308,24.710171 257.612308,24.6240172 L256.381538,24.6240172 C256.384615,24.9624787 256.658462,25.2394018 257,25.2394018 L257,25.2394018 Z M258.846154,21.8547864 C258.846154,20.910171 258.341538,20.1194018 257.461538,19.910171 L257.461538,19.7009402 C257.461538,19.4455556 257.255385,19.2394018 257,19.2394018 C256.744615,19.2394018 256.538462,19.4455556 256.538462,19.7009402 L256.538462,19.910171 C255.655385,20.1194018 255.153846,20.9070941 255.153846,21.8547864 L255.153846,23.3932479 L254.538462,24.0086325 L254.538462,24.3163248 L259.461538,24.3163248 L259.461538,24.0086325 L258.846154,23.3932479 L258.846154,21.8547864 L258.846154,21.8547864 Z" id="Icon" stroke="#B6B6BA" stroke-width="1.5" fill="#FFFFFF" fill-rule="nonzero"></path>
+                </g>
+                <circle id="Oval-2-Copy-9" fill="#006CFA" fill-rule="nonzero" cx="3" cy="106.575353" r="3"></circle>
+                <circle id="Oval-2-Copy-6" fill="#F82722" fill-rule="nonzero" cx="50" cy="77.0136082" r="2"></circle>
+                <circle id="Oval-2-Copy-7" fill="#25C286" fill-rule="nonzero" cx="7.5" cy="80.5136082" r="1.5"></circle>
+                <g id="Group-23-Copy-2" transform="translate(389.423849, 75.013608)">
+                    <circle id="Oval-23" fill="#25C286" fill-rule="nonzero" cx="7" cy="7" r="7"></circle>
+                    <polyline id="Line-35" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="9.72222222 5.44444444 6.1168337 8.55555556 4.27777778 7"></polyline>
+                </g>
+                <g id="Group-23-Copy-3" transform="translate(83.500196, 279.845397)">
+                    <circle id="Oval-23" fill="#25C286" fill-rule="nonzero" cx="7" cy="7" r="7"></circle>
+                    <polyline id="Line-35" stroke="#FFFFFF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="9.72222222 5.44444444 6.1168337 8.55555556 4.27777778 7"></polyline>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

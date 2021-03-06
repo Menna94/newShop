@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="106px" height="103px" viewBox="0 0 106 103" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.5 (67469) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 15</title>
+    <desc>Created with Sketch.</desc>
+    <g id="illustration---2019" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Artboard" transform="translate(-752.000000, -5972.000000)" fill-rule="nonzero">
+            <g id="Group-15" transform="translate(751.704615, 5972.567374)">
+                <path d="M52.980924,101.755826 C72.7174514,101.755826 82.1930659,92.2535442 91.1587788,76.7016083 C95.3632351,69.4085535 105.475474,59.9907489 105.475474,51.0508621 C105.475474,37.9845881 93.5971343,28.4249931 85.1934889,19.4348261 C75.5864805,9.1573089 68.4454269,0.34589876 52.980924,0.34589876 C38.5420328,0.34589876 35.4651344,10.3226541 25.9745024,19.4348261 C16.4088354,28.6190411 0.486373655,36.9939404 0.486373655,51.0508621 C0.486373655,79.0544402 23.9889844,101.755826 52.980924,101.755826 Z" id="Oval-Copy-5" fill-opacity="0.041311" fill="#006CFA"></path>
+                <circle id="Oval-2-Copy-23" fill="#006CFA" cx="25.1427895" cy="35.2992576" r="1.33333333"></circle>
+                <circle id="Oval-2-Copy-26" fill="#25C286" cx="53.980924" cy="20.9531581" r="1"></circle>
+                <circle id="Oval-2-Copy-19" fill="#F82722" cx="85.2097513" cy="29.8134239" r="1.97751741"></circle>
+                <g id="Group-8" transform="translate(6.790923, 29.813424)" stroke-linecap="round" stroke-linejoin="round" stroke-width="2">
+                    <g id="svg+xml;base64,PHN2ZyBoZWlnaHQ9JzMwMHB4JyB3aWR0aD0nMzAwcHgnICBmaWxsPSIjMDAwMDAwIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2ZXJzaW9uPSIxLjIiIGJhc2VQcm9maWxlPSJ0aW55IiB4PSIwcHgiI" transform="translate(6.116749, 0.394638)">
+                        <g id="Group">
+                            <path d="M20.0382724,0.559288894 L25.9370225,0.559288894" id="Path" stroke="#666E78"></path>
+                            <g transform="translate(0.000000, 0.559289)">
+                                <circle id="Oval" stroke="#666E78" fill="#FFFFFF" cx="61.6572311" cy="25.5612502" r="13.7637501"></circle>
+                                <circle id="Oval-Copy-39" stroke="#DADADC" fill="#FFFFFF" cx="61.6572311" cy="25.5612502" r="5.50550005"></circle>
+                                <circle id="Oval" stroke="#666E78" fill="#FFFFFF" transform="translate(13.812104, 25.561193) rotate(-89.836455) translate(-13.812104, -25.561193) " cx="13.8121037" cy="25.5611935" r="13.7638062"></circle>
+                                <circle id="Oval-Copy-40" stroke="#DADADC" fill="#FFFFFF" cx="13.8121037" cy="25.5611935" r="5.50550005"></circle>
+                                <circle id="Oval" stroke="#666E78" fill="#006CFA" transform="translate(34.130012, 28.182741) rotate(-89.836455) translate(-34.130012, -28.182741) " cx="34.1300119" cy="28.1827406" r="3.27709671"></circle>
+                                <path d="M30.8526475,27.6585836 L14.1395224,25.5612502" id="Path" stroke="#666E78" fill="#FFFFFF"></path>
+                                <path d="M28.2309808,6.55416673 L51.825981,6.55416673" id="Path" stroke="#666E78" fill="#FFFFFF"></path>
+                                <path d="M52.4813977,8.52041675 L36.8824809,25.5612502" id="Path" stroke="#666E78" fill="#FFFFFF"></path>
+                                <polyline id="Path" stroke="#666E78" points="30.1972308 0 24.9538975 0 33.4743142 24.9058336"></polyline>
+                                <path d="M58.3801478,6.55416673 L59.6909811,6.55416673 C62.9680645,6.55416673 62.9680645,3.27708336 62.9680645,3.27708336 C62.9680645,0 59.6909811,0 59.6909811,0 L58.3801478,0 L53.1368144,0 L51.1705644,2.62166669 L53.1368144,9.17583342 C53.1368144,9.17583342 57.3970228,22.2841669 61.6572311,25.5612502" id="Path" stroke="#666E78"></path>
+                                <path d="M14.1395224,25.5612502 L28.0998975,6.75079173" id="Path" stroke="#666E78" fill="#FFFFFF"></path>
+                                <path d="M35.7027309,31.0667503 L38.7176476,36.047917" id="Path" stroke="#666E78"></path>
+                                <path d="M36.7513976,36.7033337 L41.3393143,36.7033337" id="Path" stroke="#666E78"></path>
+                            </g>
+                        </g>
+                    </g>
+                    <path d="M0.231728325,40.9873941 L87.7800439,40.9780406" id="Line-14" stroke="#666E78"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
