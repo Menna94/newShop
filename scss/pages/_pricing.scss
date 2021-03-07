@@ -1,0 +1,233 @@
+body {
+  background-color: #f0f2f5;
+}
+.vertical-split {
+  margin: 20px;
+  border-style: none none solid;
+  border-width: 1px;
+  border-color: rgba(119, 132, 140, 0.33);
+}
+p {
+  color: rgba(44, 54, 65, 0.8);
+  font-size: 14px;
+}
+.main-header {
+  background: linear-gradient(135deg, #4c46f4, #0081fa),
+    linear-gradient(90deg, #4669f4, #469af4);
+}
+.pricing {
+  padding-top: 30px;
+  background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460bdc88c8e868_main-img2.png"),
+    linear-gradient(135deg, #4c46f4, #0081fa),
+    linear-gradient(90deg, #4669f4, #469af4);
+  height: 1540px;
+  .container {
+    .pricing-text {
+      height: 70px;
+      text-align: center;
+      font-size: 54px;
+      color: #fff;
+      line-height: 70px;
+    }
+    .pricing_cards {
+      background-color: #fff;
+      text-align: center;
+      height: 905px;
+
+      .pCards__container {
+        height: 905px;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: center;
+        .pCard {
+          padding: 50px 30px;
+          // background-image: linear-gradient(180deg, #fff, #fff);
+          box-shadow: 1px 0 25px 5px rgba(40, 43, 49, 0.12);
+          text-align: center;
+          border-left: 1px solid transparent;
+          .pCard-body {
+            h2 {
+              font-size: 54px;
+              color: #006cfa;
+              line-height: 70px;
+              font-weight: 600;
+              padding-top: 30px;
+              margin-bottom: 8px;
+            }
+            .pCard-text {
+              height: 490px;
+              padding: 0 30px;
+              margin-bottom: 50px;
+            }
+            .card-text-bottom {
+              height: 280px;
+
+              button {
+                margin-top: 20px;
+                @include main-button;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+.enterprisePricing {
+  margin-top: 30px;
+  p {
+    color: #fff;
+    font-family: "Gilory-Regular";
+  }
+  .enterprisePricing__container {
+    width: 100%;
+    height: 194px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #fff;
+    color: #0f76f9;
+    .enterprise-dark-text {
+      background-image: url("../images/enterprise-back.png");
+      background-color: transparent;
+      padding: 16px 30px 64px 40px;
+      background-size: cover;
+      color: #fff;
+      background-position: 50% 50%;
+      width: 30%;
+      text-align: left;
+      z-index: 2;
+    }
+    .features {
+      width: 60%;
+      height: 100%;
+      column-count: 2;
+      padding: 50px 20px;
+      background-color: #fff;
+      text-align: left;
+      ul > li {
+        color: rgba(44, 54, 65, 0.8);
+        font-size: 16px;
+        font-family: "Gilory-Bold";
+      }
+    }
+    .lets-talk {
+      width: 30%;
+      .lets-talk__container {
+        border-left: 1px solid #333;
+        padding: 30px 50px 16px 100px;
+        margin: 34px 0 26px;
+        font-size: 24px;
+        button {
+          @include main-button;
+        }
+      }
+    }
+  }
+}
+
+.questions {
+  input[type="checkbox"] {
+    display: none;
+  }
+  height: max-content;
+  background-color: #fff;
+  color: #333;
+  padding: 130px 0;
+  .questions-text {
+    text-align: center;
+    background-color: #fff;
+    margin-bottom: 40px;
+    h1 {
+      font-size: 36px;
+      line-height: 48px;
+      color: #2c3641;
+      font-family: "Gilory-Bold";
+    }
+  }
+  .container {
+    text-align: left;
+    padding: 0px;
+    font-family: "Gilory-Bold";
+    font-size: 18px;
+    .faq-drawer {
+      margin-bottom: 30px;
+      background-color: seashell;
+      .faq-drawer__title {
+        border-bottom: #000 1px solid;
+        cursor: pointer;
+        display: block;
+        padding: 10px 0;
+        position: relative;
+        transition: all 0.25s ease-out;
+        &::after {
+          border-style: solid;
+          border-width: 3px 3px 0 0;
+          content: " ";
+          float: right;
+          left: -2px;
+          position: relative;
+          right: 20px;
+          top: 2px;
+          transform: rotate(135deg);
+          transition: 0.35s ease-in-out;
+          vertical-align: top;
+          color: rgb(99, 97, 97);
+          height: 13px;
+          width: 13px;
+        }
+      }
+      .faq-drawer__content-wrapper {
+        font-size: 1.25em;
+        line-height: 1.4em;
+        max-height: 0px;
+        overflow: hidden;
+        transition: 0.25s ease-in-out;
+        .faq-drawer__content p {
+          font-family: "Gilory-Regular";
+          font-size: 18px;
+          color: rgb(117, 115, 115);
+        }
+      }
+      .faq-drawer__trigger {
+        &:checked + .faq-drawer__title + .faq-drawer__content-wrapper {
+          max-height: 350px;
+        }
+        &:checked + .faq-drawer__title::after {
+          transform: rotate(-45deg);
+          transition: 0.25s ease-in-out;
+        }
+      }
+    }
+  }
+}
+
+.spin {
+  height: 489px;
+  background-image: linear-gradient(135deg, #4c46f4, #006cfa);
+  color: #fff;
+  margin-bottom: 50px;
+  .spin__container {
+    width: 500px;
+    text-align: center;
+    padding: 128px 0;
+    & h5,
+    & button {
+      margin-bottom: 40px;
+    }
+    button {
+      @include main-button;
+    }
+    a {
+      text-decoration: underline;
+      color: #fff;
+    }
+  }
+}
+@media only screen and (max-width: 600px) {
+  .container {
+    padding: 80px;
+  }
+}

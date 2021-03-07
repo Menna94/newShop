@@ -10,47 +10,50 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <!-- CSS -->
-    <link rel="stylesheet" href="../css/pricing.css">
+    <link rel="stylesheet" href="../css/style.css">
     
 </head>
 <body>
-    <section class="nav">
-        <nav class="navbar navbar-expand-lg navbar-light bg-light justify-content-center" id="shop__navbar">
-            <div class="container-fluid">
-                <!-- Nav Brand -->
-                <a class="navbar-brand me-auto" href="#" ><img src="../images/logo.svg" alt="monkeyshop"> </a>
-    
-                <!-- Toggler -->
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <section class="main-header">
+        <div class="nav-trigger__wrapper">
+            <nav class="navbar navbar-expand-lg navbar-lightmain-nav">
+
+                <!-- Brand -->
+                <a class="navbar-brand" href="../shopmonkey.html">
+                    <img src="../images/logo.svg" class="light">
+                </a>
+                <!-- Toggler Button -->
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
-    
                 <!-- Nav -->
-                <div class="collapse navbar-collapse justify-content-right" id="navbarSupportedContent">
-                    <ul class="navbar-nav mb-2 mb-lg-0 justify-content-right">
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav mr-auto links__container">
                         <li class="nav-item dropdown">
-                            <a class="nav-link">Features &nbsp;  <i class="fa fa-chevron-down"></i></a> 
-                            <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Shop Management</a></li>
-                            <li><a class="dropdown-item" href="#">Payments</a></li>
-                            </ul>
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Features
+                            </a>
+                            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <a class="dropdown-item" href="./shop-management.html"><i class="fas fa-th-large"></i> <span class=" activated">Shop Management</span> </a>
+                            <a class="dropdown-item" href="./payments.html"><i class="fas fa-dollar-sign"></i> <span>Payments</span> </a>
+                            </div>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Pricing</a>
+                            <a class="nav-link bottomed" href="./pricing">Pricing</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">About Us</a>
+                            <a class="nav-link bottomed" href="./about">About Us</a>
                         </li>
-                        <li>
-                            <button type="submit">Contact Us</button>
-    
+                        <li class="nav-item">
+                            <a class="nav-link main-button" href="#">Contact Us</a>
                         </li>
+                        
                     </ul>
-    
-                </div>
-            </div>
-          </nav>
-    </section>
+            </nav>
+
+        </div>
+
+</section>
 
 
     <!-- ------------------- PRICING CARDS ------------------- -->
@@ -65,8 +68,8 @@
 
 
             <!-- Card Group -->
-            <div class="cards">
-                <div class="pricing-pCards__container">
+            <div class="pricing_cards">
+                <div class="pCards__container">
 
                     <!-- card-1 -->
                     <div class="pCard">
@@ -100,7 +103,7 @@
                                 <h5> <strong>In-Person Payments</strong> </h5>
                                 <p><small class="text-muted">2.7% + 15 cents per transaction</small></p>
                                 <p><small class="text-muted">$299 + $10/mo for each device</small></p>
-                                <button>Request a Demo</button>
+                                <button class="main-button">Request a Demo</button>
                             </div>
 
 
@@ -142,7 +145,7 @@
                                 <h5> <strong>In-Person Payments</strong> </h5>
                                 <p><small class="text-muted">2.6% + 15 cents per transaction</small></p>
                                 <p><small class="text-muted">$299 + $10/mo for each device</small></p>
-                                <button>Request a Demo</button>
+                                <button class="main-button">Request a Demo</button>
                             </div>
 
 
@@ -182,7 +185,7 @@
                                 <h5> <strong>In-Person Payments</strong> </h5>
                                 <p><small class="text-muted">2.5% + 15 cents per transaction</small></p>
                                 <p><small class="text-muted">$299 + $10/mo for each device</small></p>
-                                <button>Request a Demo</button>
+                                <button class="main-button">Request a Demo</button>
                             </div>
 
 
@@ -221,7 +224,7 @@
                                 <h5> <strong>In-Person Payments</strong> </h5>
                                 <p><small class="text-muted">2.5% + 15 cents per transaction</small></p>
                                 <p><small class="text-muted">$299 + $10/mo for each device</small></p>
-                                <button>Request a Demo</button>
+                                <button class="main-button">Request a Demo</button>
                             </div>
 
 
@@ -238,7 +241,7 @@
             <div class="enterprisePricing">
                 <div class="enterprisePricing__container">
                     <div class="enterprise-dark-text">
-                        <h2>Enterprise</h2>
+                        <h1>Enterprise</h1>
                         <p>The Shopmonkey team will provide you with a solution that fits your needs.</p>
                     </div>
     
@@ -257,8 +260,8 @@
     
                     <div class="lets-talk">
                         <div class="lets-talk__container">
-                            <h3>Let's Talk</h3>
-                            <button>Request info</button>
+                            <h3>Let's Talk.</h3>
+                            <button class="main-button">Request info</button>
                         </div>
                     </div>
                 </div>
@@ -276,11 +279,12 @@
             <h1> Frequently Asked Questions</h1>
         </div>
 
-            <div class="container">
-                <div class="questions__container">
+        <div class="container">
+            <div class="questions__container">
+                <!-- Q1 -->
                 <div class="faq-drawer">
-                    <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
-                    <label class="faq-drawer__title" for="faq-drawer">Do I have to sign a contract?</label>
+                    <input class="faq-drawer__trigger" id="faq-drawer-1" type="checkbox" />
+                    <label class="faq-drawer__title" for="faq-drawer-1">Do I have to sign a contract?</label>
                     <div class="faq-drawer__content-wrapper">
                         <div class="faq-drawer__content">
                             <p>
@@ -290,67 +294,69 @@
                     </div>
                 </div>
 
-
+                <!-- Q2 -->
                 <div class="faq-drawer">
-                    <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
-                    <label class="faq-drawer__title" for="faq-drawer">Are there setup fees to get started? </label>
+                    <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" />
+                    <label class="faq-drawer__title" for="faq-drawer-2">Are there setup fees to get started? </label>
                     <div class="faq-drawer__content-wrapper">
-                      <div class="faq-drawer__content">
+                        <div class="faq-drawer__content">
                         <p>
                             No. Shopmonkey is a flat monthly rate. There are no setup or installation fees. 
                         </p>
-                      </div>
+                        </div>
                     </div>
                 </div>
 
-
+                <!-- Q3 -->
                 <div class="faq-drawer">
-                    <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
-                    <label class="faq-drawer__title" for="faq-drawer">How many devices can I use? </label>
+                    <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" />
+                    <label class="faq-drawer__title" for="faq-drawer-3">How many devices can I use? </label>
                     <div class="faq-drawer__content-wrapper">
-                      <div class="faq-drawer__content">
-                        <p>
-                            As many as you want. Since we're a cloud-based solution, you can use Shopmonkey.io on your phone, tablet or computer. We do not impose any device limits.   
-                        </p>
-                      </div>
+                        <div class="faq-drawer__content">
+                            <p>
+                                As many as you want. Since we're a cloud-based solution, you can use Shopmonkey.io on your phone, tablet or computer. We do not impose any device limits.   
+                            </p>
+                        </div>
                     </div>
                 </div>
-                
+            
                 <div class="faq-drawer">
-                  <input class="faq-drawer__trigger" id="faq-drawer" type="checkbox" />
-                  <label class="faq-drawer__title" for="faq-drawer">How many users can use the system? </label>
-                  <div class="faq-drawer__content-wrapper">
-                    <div class="faq-drawer__content">
-                      <p>
-                        You can have as many users accessing the system as you wish. Each additional user beyond the amount allotted to your subscription costs $20/user/mo for single store locations. Multi location user pricing is subject to agreement.    
-                      </p>
+                    <input class="faq-drawer__trigger" id="faq-drawer-4" type="checkbox" />
+                    <label class="faq-drawer__title" for="faq-drawer-4">How many users can use the system? </label>
+                    <div class="faq-drawer__content-wrapper">
+                        <div class="faq-drawer__content">
+                            <p>
+                            You can have as many users accessing the system as you wish. Each additional user beyond the amount allotted to your subscription costs $20/user/mo for single store locations. Multi location user pricing is subject to agreement.    
+                            </p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                
+            
                 <div class="faq-drawer">
-                  <input class="faq-drawer__trigger" id="faq-drawer-2" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-2">I'm a new business, can you help me out?</label>
-                  <div class="faq-drawer__content-wrapper">
-                    <div class="faq-drawer__content">
-                      <p>
-                        Absolutely. We love working with new businesses trying to get off the ground. We offer discounts and packages to grow alongside you.     
-                      </p>
+                    <input class="faq-drawer__trigger" id="faq-drawer-5" type="checkbox" />
+                    <label class="faq-drawer__title" for="faq-drawer-5">I'm a new business, can you help me out?</label>
+                    <div class="faq-drawer__content-wrapper">
+                        <div class="faq-drawer__content">
+                            <p>
+                            Absolutely. We love working with new businesses trying to get off the ground. We offer discounts and packages to grow alongside you.     
+                            </p>
+                        </div>
                     </div>
-                  </div>
                 </div>
-                
+            
                 <div class="faq-drawer">
-                  <input class="faq-drawer__trigger" id="faq-drawer-3" type="checkbox" /><label class="faq-drawer__title" for="faq-drawer-3">Can I try it out?</label>
-                  <div class="faq-drawer__content-wrapper">
-                    <div class="faq-drawer__content">
-                      <p>
-                        Of course. We offer a free trial period without collecting any credit card information so you can make sure we're a good fit.           
-                      </p>
+                    <input class="faq-drawer__trigger" id="faq-drawer-5" type="checkbox" />
+                    <label class="faq-drawer__title" for="faq-drawer-5">Can I try it out?</label>
+                    <div class="faq-drawer__content-wrapper">
+                        <div class="faq-drawer__content">
+                            <p>
+                                Of course. We offer a free trial period without collecting any credit card information so you can make sure we're a good fit.           
+                            </p>
+                        </div>
                     </div>
-                  </div>
                 </div>
                 
-              </div>
+            </div>
         </div>
         
         
@@ -360,7 +366,7 @@
         <div class="spin__container">
             <h2>Take it for a spin</h2>
             <h5>No contracts. No hidden fees. Get started in minutes.</h5>
-            <button>Start a Free Trial</button>
+            <button class="main-button">Start a Free Trial</button>
             <h5>Want to talk it over a bit? <a href="http://">Schedule a Demo</a></h5>
         </div>
     </section>
