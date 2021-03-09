@@ -11,10 +11,65 @@ p {
   color: rgba(44, 54, 65, 0.8);
   font-size: 14px;
 }
-.main-header {
+// .main-header {
+//   background: linear-gradient(135deg, #4c46f4, #0081fa),
+//     linear-gradient(90deg, #4669f4, #469af4);
+//   height: 0px;
+// }
+.pricing-header {
+  position: relative;
   background: linear-gradient(135deg, #4c46f4, #0081fa),
     linear-gradient(90deg, #4669f4, #469af4);
+  .nav-trigger__wrapper {
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    transition: transform 0.4s;
+    width: 100%;
+    nav {
+      padding: 20px 0 10px;
+      display: flex;
+      color: black;
+      .links__container {
+        margin-right: 50px;
+        .nav-link {
+          margin-left: 15px;
+          padding: 13px;
+          color: #fff;
+          border-bottom: 4px solid transparent;
+        }
+        .bottomed:hover {
+          border-bottom: 4px solid #fff;
+        }
+        .dropdown-menu {
+          .dropdown-item {
+            &:active .activated {
+              color: #f48646;
+              background-color: #fff;
+            }
+            i {
+              margin: auto 10px auto 2px;
+            }
+            .fa-th-large {
+              color: #4669f4;
+            }
+            .fa-dollar-sign {
+              color: lightgreen;
+            }
+          }
+        }
+      }
+      .navbar-brand {
+        margin-left: 50px;
+      }
+      .main-button {
+        @include main-button;
+        margin-top: 4px;
+      }
+    }
+  }
 }
+
 .pricing {
   padding-top: 30px;
   background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460bdc88c8e868_main-img2.png"),
@@ -229,5 +284,36 @@ p {
 @media only screen and (max-width: 600px) {
   .container {
     padding: 80px;
+  }
+}
+.scroll-down .nav-trigger__wrapper {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up {
+  .main-header {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
+    .nav-trigger__wrapper {
+      background-color: #fff;
+      transform: none;
+      .links__container .nav-link {
+        color: black;
+      }
+    }
+  }
+}
+@media all and (max-width: 992px) {
+  .navbar {
+    .nav-item {
+      .dropdown-menu {
+        display: none;
+        margin-top: 0;
+      }
+      &:hover {
+        .dropdown-menu {
+          display: block;
+        }
+      }
+    }
   }
 }

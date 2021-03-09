@@ -5,7 +5,7 @@
   .nav-trigger__wrapper {
     position: fixed;
     top: 0;
-    z-index: 2;
+    z-index: 6;
     transition: transform 0.4s;
     width: 100%;
     nav {
@@ -57,7 +57,7 @@
 }
 
 .scroll-up {
-  .main-header {
+  .pricing-header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
     .nav-trigger__wrapper {
       background-color: #fff;

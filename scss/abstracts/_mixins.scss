@@ -3,6 +3,7 @@
   margin: 0px auto;
   box-sizing: border-box;
 }
+
 @font-face {
   font-family: "Gilory-Light";
   src: url("../fonts/Gilroy-Light.ttf");
@@ -28,6 +29,8 @@ body {
   font-family: "Gilory-Regular", sans-serif;
   font-size: 16px;
   text-align: center;
+  position: relative;
+  overflow-x: hidden;
 }
 section {
   padding: 50px 0 25px;
@@ -46,9 +49,10 @@ a {
   }
 }
 p {
-  color: #2c3641;
+  color: #474f57;
   font-size: 16px;
   line-height: 26px;
+  font-family: "Gilory-Medium";
 }
 
 ul li {
@@ -84,6 +88,11 @@ ul li {
   background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b3aafc8e86b_grey%20line.svg");
   background-size: 100%;
   background-repeat: no-repeat;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  height: 618px;
 }
 
 @mixin grey-liner {
@@ -100,6 +109,28 @@ ul li {
   background-position: 0 0;
   background-image: url("../images/grey-liner.svg");
   z-index: 1000;
+}
+
+@mixin blue-liner {
+  width: 100%;
+  height: 147px;
+  margin-bottom: 0;
+  background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b3e7cc8e870_blue%20line%20top.svg");
+  background-position: 50% 0;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+@mixin blue-liner-bottom {
+  display: block;
+  width: 102%;
+  height: 121px;
+  margin-top: -20px;
+  margin-left: -1%;
+  background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460bd44ec8e873_blue%20line%20bot.svg");
+  background-position: 50% 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 @mixin white-inv-liner {

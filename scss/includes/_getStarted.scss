@@ -34,3 +34,31 @@
     }
   }
 }
+@media (max-width: 992px) {
+  .btns__container {
+    height: 52px;
+    .main-button,
+    .info-button {
+      width: 171px;
+      padding: 0px 0px;
+    }
+  }
+}
+@media (max-width: 768px) {
+  .text__container {
+    display: flex;
+    flex-direction: row;
+    .logo {
+      width: 80px;
+      height: 72px;
+    }
+    // .btns__container {
+    //   height: 52px;
+    //   .main-button,
+    //   .info-button {
+    //     width: 171px;
+    //     padding: 0px 0px;
+    //   }
+    // }
+  }
+}

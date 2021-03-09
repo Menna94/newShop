@@ -1,0 +1,42 @@
+.maintainanceForMoms {
+  background-image: linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3)
+    ),
+    url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b43cbc8e86a_mom-bg.jpg");
+  background-position: 0 0, 50% 26%;
+  background-size: auto, cover;
+  background-repeat: repeat, no-repeat;
+  padding: 25px 0 100px;
+  height: 528px;
+  .mom__container {
+    // background-color: blueviolet;
+    font-size: 16px;
+    width: 50%;
+    height: 80%;
+    color: #fff;
+
+    .mom-banner {
+      width: 100%;
+      height: 85%;
+      margin-top: 15px;
+      img {
+        height: 100%;
+      }
+      // background-color: cyan;
+    }
+    .text__container {
+      margin-top: 15px;
+      p {
+        color: #fff;
+        font-size: 18px;
+      }
+      button {
+        @include main-button;
+        margin-top: 30px;
+        background-color: #25c286;
+      }
+    }
+  }
+}
