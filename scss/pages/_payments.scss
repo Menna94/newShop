@@ -1,108 +1,138 @@
-// Banner
-.paymentsBanner {
-  .text__wrapper {
-    color: #fff;
-    width: 510px;
-    text-align: left;
-    .main-title {
-      p {
-        font-size: 54px;
-        margin-bottom: 18px;
-        line-height: 70px;
-        font-family: "Gilory-Bold";
-        color: white;
+.payments-page {
+  // Banner
+  .main-header {
+    position: relative;
+    bottom: auto;
+    z-index: 0;
+    overflow: visible;
+    height: 750px;
+    min-height: 750px;
+    padding-bottom: 0;
+    background-image: linear-gradient(135deg, #4c46f4, #0081fa);
+    .paymentsBanner {
+      padding-top: 100px;
+      .text__wrapper {
+        color: #fff;
+        width: 510px;
+        text-align: left;
+        .main-title {
+          p {
+            font-size: 54px;
+            margin-bottom: 18px;
+            line-height: 70px;
+            font-family: "Gilory-Bold";
+            color: white;
+          }
+        }
+        & > p {
+          margin: 18px 20px 50px 0;
+          margin-bottom: 57px;
+          color: white;
+        }
+      }
+      .img__wrapper {
+        position: relative;
+        z-index: 10;
+        .shop {
+          position: relative;
+          bottom: -27px;
+          width: 100%;
+        }
+        .phone {
+          position: absolute;
+          left: -13%;
+          top: 55%;
+          right: auto;
+          bottom: 0;
+          z-index: 5;
+          width: 150px;
+        }
       }
     }
-    & > p {
-      margin: 18px 20px 50px 0;
-      margin-bottom: 57px;
-      color: white;
-    }
   }
-  .img__wrapper {
-    position: relative;
-    z-index: 90;
-    .shop {
-      position: relative;
-      bottom: -27px;
-      width: 100%;
-    }
-    .phone {
-      position: absolute;
-      left: -13%;
-      top: 55%;
-      right: auto;
-      bottom: 0;
-      z-index: 5;
-      width: 150px;
-    }
-  }
-}
-.pay-features {
-  .row {
-    margin: 125px auto;
-  }
-  .grey-liner {
-    @include grey-liner;
-  }
-  .text__wrapper {
-    width: 440px;
-    padding: 50px 0;
-    text-align: left;
-    h3 {
-      font-size: 32px !important;
-    }
-  }
-}
 
-.in-store {
-  .row {
-    margin: 125px auto;
-  }
-  .title__container {
-    margin-bottom: 125px;
-    text-align: center;
-    h1 {
-      font-size: 54px;
+  .pay-features {
+    display: block;
+    overflow: hidden;
+    height: auto;
+    max-width: none;
+    padding-top: 88px;
+    background-color: transparent;
+    margin-top: -88px;
+    .row {
+      margin: 125px auto;
     }
-    p {
+    .grey-liner {
+      position: absolute;
+      display: block;
+      left: 0;
+      top: 0;
+      right: 0;
+      z-index: 0;
+      height: 618px;
+      background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b3aafc8e86b_grey%20line.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+    }
+    .text__wrapper {
+      width: 440px;
+      padding: 50px 0;
+      text-align: left;
+      h3 {
+        font-size: 32px !important;
+      }
+    }
+  }
+
+  .in-store {
+    .row {
+      margin: 125px auto;
+    }
+    .title__container {
+      margin-bottom: 125px;
+      text-align: center;
+      h1 {
+        font-size: 54px;
+      }
+      p {
+        font-size: 18px;
+      }
+      .split-divider {
+        @include split-divider;
+      }
+    }
+    .text__wrapper {
+      text-align: left;
+      padding: 50px 0;
+      width: 440px;
+      & p:first-child {
+        font-size: 18px;
+      }
+      h2 {
+        margin-bottom: 30px;
+      }
+    }
+  }
+  .pay-overall-fs {
+    padding: 100px 0;
+    .row {
+      padding: 0 30px;
+    }
+    .img__container {
+      width: 105px;
+      img {
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .img__title {
+      margin: 30px 0 16px;
+      font-size: 24px;
+      letter-spacing: -0.19px;
+    }
+    .img__txt {
+      max-width: 440px;
       font-size: 18px;
     }
-    .split-divider {
-      @include split-divider;
-    }
-  }
-  .text__wrapper {
-    text-align: left;
-    padding: 50px 0;
-    width: 440px;
-    & p:first-child {
-      font-size: 18px;
-    }
-    h2 {
-      margin-bottom: 30px;
-    }
-  }
-}
-.pay-overall-fs {
-  padding: 100px 0;
-  .row {
-    padding: 0 30px;
-  }
-  .img__container {
-    width: 105px;
-    img {
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .img__title {
-    margin: 30px 0 16px;
-    font-size: 24px;
-    letter-spacing: -0.19px;
-  }
-  .img__txt {
-    max-width: 440px;
-    font-size: 18px;
   }
 }

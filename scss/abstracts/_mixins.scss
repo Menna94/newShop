@@ -70,6 +70,10 @@ ul li {
   font-weight: 600;
   border-color: transparent;
   font-family: "Gilory-Medium";
+  &:hover {
+    transition: 0.4s ease-in-out;
+    transform: translateY(-2px);
+  }
 }
 
 @mixin info-button {
@@ -96,25 +100,38 @@ ul li {
   height: 618px;
 }
 
+@mixin grey-liner-payments {
+  background-size: 100%;
+  background-repeat: no-repeat;
+  position: absolute;
+  display: block;
+  left: 0;
+  top: 0;
+  right: 0;
+  z-index: 0;
+  height: 618px;
+  // margin-top: -60px;
+  background-position: 0 0;
+  background-image: url("../images/grey-liner.svg");
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
 @mixin grey-liner {
   background-size: 100%;
   background-repeat: no-repeat;
   position: absolute;
+  display: block;
   left: 0;
   top: 0;
   right: 0;
-  bottom: auto;
-  z-index: 10;
-  height: 100px;
-  margin-top: -60px;
+  z-index: 0;
+  height: 618px;
+  // margin-top: -60px;
   background-position: 0 0;
   background-image: url("../images/grey-liner.svg");
-  z-index: 1000;
-  position: absolute;
   background-size: 100%;
   background-repeat: no-repeat;
 }
-
 @mixin blue-liner {
   width: 100%;
   height: 147px;

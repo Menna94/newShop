@@ -1,217 +1,223 @@
-.text__wrapper {
-  text-align: left;
-
-  h3 {
-    margin-bottom: 16px;
-    color: #2c3641;
-    font-size: 32px;
-    line-height: 48px;
-    letter-spacing: 0;
-  }
-}
-.main-header {
-  position: relative;
-  padding-top: 200px;
-  .about-banner {
-    position: relative;
-    z-index: 1;
-    .text__wrapper {
-      text-align: center;
-      width: 95%;
-      font-weight: bold;
-      color: #fff;
-      padding: 130px 11px 0;
-      h1 {
-        font-size: 44px;
-        line-height: 53px;
-        color: #fff;
-      }
-    }
-  }
-  .about-banner-img {
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    width: 100%;
-    height: 100%;
-    background-color: #f0f2f5;
-    -o-object-fit: cover;
-    object-fit: cover;
-    img {
-      position: absolute;
-      top: -341px;
-      display: block;
-      width: 100%;
-      height: 100%;
-      -o-object-fit: cover;
-      object-fit: cover;
-    }
-  }
-}
-
-.ourVision {
-  a {
-    color: #7b848f !important;
-    font-size: 18px;
-    font-family: "Gilory-Light";
-  }
-  position: relative;
-  z-index: 1;
-  margin-top: -370px;
-  padding: 130px 0;
-  text-align: left;
+.about-page {
   .text__wrapper {
+    text-align: left;
+
     h3 {
       margin-bottom: 16px;
       color: #2c3641;
       font-size: 32px;
       line-height: 48px;
-      font-weight: 700;
-      text-align: left;
       letter-spacing: 0;
     }
   }
-}
-.ourFounder {
-  position: relative;
-  height: 602px;
-  margin-bottom: 150px;
-  .our-founder-img {
-    margin-right: 20%;
-    width: 94%;
-    margin-top: -50px;
-    img {
+  .main-header {
+    position: relative;
+    padding: 200px 0;
+    // z-index: 3;
+    .about-banner {
       position: relative;
-      width: 100%;
-      height: 100%;
-    }
-  }
-  .our-founder-img__caption-overlay {
-    position: absolute;
-    padding: 8px;
-    color: #fff;
-    background-color: rgba(44, 54, 65, 0.7);
-    border-top-right-radius: 20px;
-    bottom: 0;
-    width: max-content;
-    margin-left: 12px;
-  }
-  .our-founder-text__container {
-    color: #fff;
-    width: 500px;
-    height: 320px;
-    border-radius: 8px;
-    background-color: #006cfa;
-    box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
-    margin: 20px auto;
-    padding: 40px;
-    position: absolute;
-    left: auto;
-    top: 50%;
-    right: 5%;
-    bottom: 0;
-    transform: translate(0, -50%);
-    z-index: 1;
-    .our-founder-text,
-    & p {
-      text-align: left;
-      position: relative;
-      color: #fff;
-    }
-  }
-}
-.ourTeam {
-  a {
-    color: #7b848f !important;
-    font-size: 18px;
-    font-family: "Gilory-Light";
-  }
-}
-.supportedBy {
-  height: 600px;
-  .supportedBy-text__container {
-    text-align: center;
-    padding: 40px;
-  }
-  .supportedBy-companies__container {
-    margin-top: 20px;
-    a {
-      //   border: 1px solid black;
-      padding: 15px;
-      height: 245px;
-      width: 245px;
-      text-align: center;
-      justify-content: center;
-      background-color: #fff;
-      box-shadow: 1px 1px 13.77px 0 rgba(0, 0, 0, 0.1);
-      .img__container {
-        padding: 55px 0;
-        img :not(:last-child) {
-          width: 100%;
+      z-index: 0;
+      width: 96%;
+      background: linear-gradient(135deg, #4c46f4, #0081fa),
+        linear-gradient(90deg, #4669f4, #469af4);
+
+      .text__wrapper {
+        text-align: center;
+        width: 95%;
+        font-weight: bold;
+        color: #fff;
+        padding: 130px 11px 0;
+        h1 {
+          font-size: 44px;
+          line-height: 53px;
+          color: #fff;
         }
       }
-      .eventures {
-        padding: 90px 0;
-      }
-      .f- {
-        padding: 65px 0;
+    }
+    .about-banner-img {
+      position: absolute;
+      left: 0;
+      top: 0;
+      right: 0;
+      bottom: 0;
+      width: 100%;
+      height: 100%;
+      background-color: #f0f2f5;
+      -o-object-fit: cover;
+      object-fit: cover;
+      img {
+        position: absolute;
+        top: -341px;
+        display: block;
+        width: 100%;
+        height: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
       }
     }
   }
-}
-.about-maintainanceForMoms {
-  height: 983px;
-  padding: 25px 0 100px;
-  align-items: center;
-  justify-content: center;
-  .mom-violet-banner {
-    background-color: #461e42;
-    height: 250px;
-    width: 100%;
-    margin-top: -25px;
-    background-image: url("../images/moms.svg");
-    background-position: 50% 50%;
-    background-size: contain;
-    background-repeat: no-repeat;
-  }
-  .mom__container {
-    height: 50%;
-    background-image: linear-gradient(
-        180deg,
-        rgba(0, 0, 0, 0.3),
-        rgba(0, 0, 0, 0.3)
-      ),
-      url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b43cbc8e86a_mom-bg.jpg");
-    background-position: 0 0, 50% 26%;
-    background-size: auto, cover;
-    background-repeat: repeat, no-repeat;
-    .text__container {
-      width: 50%;
-      padding: 150px 0 50px;
-      .main-button {
-        @include main-button;
-      }
+
+  .ourVision {
+    a {
+      color: #7b848f !important;
+      font-size: 18px;
+      font-family: "Gilory-Light";
+    }
+    position: relative;
+    z-index: 1;
+    // margin-top: -370px;
+    padding: 130px 0;
+    text-align: left;
+    .text__wrapper {
       h3 {
+        margin-bottom: 16px;
+        color: #2c3641;
+        font-size: 32px;
+        line-height: 48px;
+        font-weight: 700;
+        text-align: left;
+        letter-spacing: 0;
+      }
+    }
+  }
+  .ourFounder {
+    position: relative;
+    height: 602px;
+    margin-bottom: 150px;
+    .our-founder-img {
+      margin-right: 20%;
+      width: 94%;
+      margin-top: -50px;
+      img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+      }
+    }
+    .our-founder-img__caption-overlay {
+      position: absolute;
+      padding: 8px;
+      color: #fff;
+      background-color: rgba(44, 54, 65, 0.7);
+      border-top-right-radius: 20px;
+      bottom: 0;
+      width: max-content;
+      margin-left: 12px;
+    }
+    .our-founder-text__container {
+      color: #fff;
+      width: 500px;
+      height: 320px;
+      border-radius: 8px;
+      background-color: #006cfa;
+      box-shadow: 1px 1px 20px 1px rgba(0, 0, 0, 0.2);
+      margin: 20px auto;
+      padding: 40px;
+      position: absolute;
+      left: auto;
+      top: 50%;
+      right: 5%;
+      bottom: 0;
+      transform: translate(0, -50%);
+      z-index: 1;
+      .our-founder-text,
+      & p {
+        text-align: left;
+        position: relative;
         color: #fff;
       }
     }
   }
-  .under_moms {
-    margin: 50px auto;
-    padding: 25px 0;
-    text-align: left;
-    .col-md-6 {
-      p {
-        font-size: 18px;
-        color: #474f57;
-        font-family: "Gilory-Medium";
+  .ourTeam {
+    a {
+      color: #7b848f !important;
+      font-size: 18px;
+      font-family: "Gilory-Light";
+    }
+  }
+  .supportedBy {
+    height: 600px;
+    .supportedBy-text__container {
+      text-align: center;
+      padding: 40px;
+    }
+    .supportedBy-companies__container {
+      margin-top: 20px;
+      a {
+        //   border: 1px solid black;
+        padding: 15px;
+        height: 245px;
+        width: 245px;
+        text-align: center;
+        justify-content: center;
+        background-color: #fff;
+        box-shadow: 1px 1px 13.77px 0 rgba(0, 0, 0, 0.1);
+        .img__container {
+          padding: 55px 0;
+          img :not(:last-child) {
+            width: 100%;
+          }
+        }
+        .eventures {
+          padding: 90px 0;
+        }
+        .f- {
+          padding: 65px 0;
+        }
+      }
+    }
+  }
+  .about-maintainanceForMoms {
+    height: 983px;
+    padding: 25px 0 100px;
+    align-items: center;
+    justify-content: center;
+    .mom-violet-banner {
+      background-color: #461e42;
+      height: 250px;
+      width: 100%;
+      margin-top: -25px;
+      background-image: url("../images/moms.svg");
+      background-position: 50% 50%;
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    .mom__container {
+      height: 50%;
+      background-image: linear-gradient(
+          180deg,
+          rgba(0, 0, 0, 0.3),
+          rgba(0, 0, 0, 0.3)
+        ),
+        url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b43cbc8e86a_mom-bg.jpg");
+      background-position: 0 0, 50% 26%;
+      background-size: auto, cover;
+      background-repeat: repeat, no-repeat;
+      .text__container {
+        width: 50%;
+        padding: 150px 0 50px;
+        .main-button {
+          @include main-button;
+        }
+        h3 {
+          color: #fff;
+        }
+      }
+    }
+    .under_moms {
+      margin: 50px auto;
+      padding: 25px 0;
+      text-align: left;
+      .col-md-6 {
+        p {
+          font-size: 18px;
+          color: #474f57;
+          font-family: "Gilory-Medium";
+        }
       }
     }
   }
 }
-
 @media (max-width: 992px) {
   .ourFounder {
     height: 393px;

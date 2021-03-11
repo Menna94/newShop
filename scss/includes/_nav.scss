@@ -1,5 +1,6 @@
 .main-header {
   position: relative;
+  z-index: 0;
   background: linear-gradient(135deg, #4c46f4, #0081fa),
     linear-gradient(90deg, #4669f4, #469af4);
   height: auto;
@@ -57,11 +58,12 @@
 }
 
 .scroll-up {
-  .pricing-header {
+  .main-header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.35);
     .nav-trigger__wrapper {
       background-color: #fff;
       transform: none;
+      z-index: 20;
       .links__container {
         .nav-link {
           color: black;
@@ -73,18 +75,18 @@
     }
   }
 }
-@media all and (min-width: 992px) {
-  .navbar {
-    .nav-item {
-      .dropdown-menu {
-        display: none;
-        margin-top: 0;
-      }
-      &:hover {
-        .dropdown-menu {
-          display: block;
-        }
-      }
-    }
-  }
-}
+// @media all and (min-width: 992px) {
+//   .navbar {
+//     .nav-item {
+//       .dropdown-menu {
+//         display: none;
+//         margin-top: 0;
+//       }
+//       &:hover {
+//         .dropdown-menu {
+//           display: block;
+//         }
+//       }
+//     }
+//   }
+// }

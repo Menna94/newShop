@@ -49,14 +49,14 @@ ul li {
   list-style: none;
   margin-bottom: 5px; }
 
-.management .title__container, .management-lookUps .title__container .title__container, .management-manageTeam .title__container, .management-track .title__container, .management-insights .title__container, .management-integration .title__container, .managemnt-transition .title__container, .index-trust .video__container .title__container .title__container {
+.shop-management-page .management .title__container, .shop-management-page .management-lookUps .title__container .title__container, .shop-management-page .management-manageTeam .title__container, .shop-management-page .management-track .title__container, .shop-management-page .management-insights .title__container, .shop-management-page .management-integration .title__container, .shop-management-page .managemnt-transition .title__container, .index-page .index-trust .video__container .title__container .title__container {
   margin-bottom: 125px;
   text-align: center; }
-  .management .title__container h1, .management-lookUps .title__container .title__container h1, .management-manageTeam .title__container h1, .management-track .title__container h1, .management-insights .title__container h1, .management-integration .title__container h1, .managemnt-transition .title__container h1, .index-trust .video__container .title__container .title__container h1 {
+  .shop-management-page .management .title__container h1, .shop-management-page .management-lookUps .title__container .title__container h1, .shop-management-page .management-manageTeam .title__container h1, .shop-management-page .management-track .title__container h1, .shop-management-page .management-insights .title__container h1, .shop-management-page .management-integration .title__container h1, .shop-management-page .managemnt-transition .title__container h1, .index-page .index-trust .video__container .title__container .title__container h1 {
     font-size: 54px; }
-  .management .title__container p, .management-lookUps .title__container .title__container p, .management-manageTeam .title__container p, .management-track .title__container p, .management-insights .title__container p, .management-integration .title__container p, .managemnt-transition .title__container p, .index-trust .video__container .title__container .title__container p {
+  .shop-management-page .management .title__container p, .shop-management-page .management-lookUps .title__container .title__container p, .shop-management-page .management-manageTeam .title__container p, .shop-management-page .management-track .title__container p, .shop-management-page .management-insights .title__container p, .shop-management-page .management-integration .title__container p, .shop-management-page .managemnt-transition .title__container p, .index-page .index-trust .video__container .title__container .title__container p {
     font-size: 18px; }
-  .management .title__container .split-divider, .management-lookUps .title__container .title__container .split-divider, .management-manageTeam .title__container .split-divider, .management-track .title__container .split-divider, .management-insights .title__container .split-divider, .management-integration .title__container .split-divider, .managemnt-transition .title__container .split-divider, .index-trust .video__container .title__container .title__container .split-divider {
+  .shop-management-page .management .title__container .split-divider, .shop-management-page .management-lookUps .title__container .title__container .split-divider, .shop-management-page .management-manageTeam .title__container .split-divider, .shop-management-page .management-track .title__container .split-divider, .shop-management-page .management-insights .title__container .split-divider, .shop-management-page .management-integration .title__container .split-divider, .shop-management-page .managemnt-transition .title__container .split-divider, .index-page .index-trust .video__container .title__container .title__container .split-divider {
     display: block;
     width: 48px;
     height: 4px;
@@ -65,6 +65,7 @@ ul li {
 
 .main-header {
   position: relative;
+  z-index: 0;
   background: linear-gradient(135deg, #4c46f4, #0081fa), linear-gradient(90deg, #4669f4, #469af4);
   height: auto; }
   .main-header .nav-trigger__wrapper {
@@ -107,26 +108,24 @@ ul li {
         border-color: transparent;
         font-family: "Gilory-Medium";
         margin-top: 4px; }
+        .main-header .nav-trigger__wrapper nav .main-button:hover {
+          transition: 0.4s ease-in-out;
+          transform: translateY(-2px); }
 
 .scroll-down .nav-trigger__wrapper {
   transform: translate3d(0, -100%, 0); }
 
-.scroll-up .pricing-header {
+.scroll-up .main-header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35); }
-  .scroll-up .pricing-header .nav-trigger__wrapper {
+  .scroll-up .main-header .nav-trigger__wrapper {
     background-color: #fff;
-    transform: none; }
-    .scroll-up .pricing-header .nav-trigger__wrapper .links__container .nav-link {
+    transform: none;
+    z-index: 20; }
+    .scroll-up .main-header .nav-trigger__wrapper .links__container .nav-link {
       color: black; }
-    .scroll-up .pricing-header .nav-trigger__wrapper .links__container .main-button {
+    .scroll-up .main-header .nav-trigger__wrapper .links__container .main-button {
       color: #fff; }
 
-@media all and (min-width: 992px) {
-  .navbar .nav-item .dropdown-menu {
-    display: none;
-    margin-top: 0; }
-  .navbar .nav-item:hover .dropdown-menu {
-    display: block; } }
 .main-banner {
   width: 100%;
   position: relative;
@@ -162,7 +161,10 @@ ul li {
       border-color: transparent;
       font-family: "Gilory-Medium";
       padding: 16px 20px;
-      background-color: chocolate; } }
+      background-color: chocolate; }
+      .main-banner .text__wrapper .btns__container .main-button:hover {
+        transition: 0.4s ease-in-out;
+        transform: translateY(-2px); } }
 .maintainanceForMoms {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b43cbc8e86a_mom-bg.jpg");
   background-position: 0 0, 50% 26%;
@@ -198,15 +200,16 @@ ul li {
         font-family: "Gilory-Medium";
         margin-top: 30px;
         background-color: #25c286; }
+        .maintainanceForMoms .mom__container .text__container button:hover {
+          transition: 0.4s ease-in-out;
+          transform: translateY(-2px); }
 
 /* Get Started */
 .get-quickly {
   background-image: linear-gradient(135deg, #4c46f4, #0081fa);
   margin-bottom: 150px;
-  height: 498px;
   padding: 125px 0; }
   .get-quickly .text__container {
-    height: 138px;
     text-align: center; }
     .get-quickly .text__container div {
       padding: 30px 20px;
@@ -224,6 +227,9 @@ ul li {
       border-color: transparent;
       font-family: "Gilory-Medium";
       margin: 36px auto; }
+      .get-quickly .text__container .main-button:hover {
+        transition: 0.4s ease-in-out;
+        transform: translateY(-2px); }
     .get-quickly .text__container p:last-child {
       color: #c2deff; }
       .get-quickly .text__container p:last-child a {
@@ -259,6 +265,9 @@ ul li {
       font-weight: 600;
       border-color: transparent;
       font-family: "Gilory-Medium"; }
+      .getStarted .text__container .btns__container .main-button:hover {
+        transition: 0.4s ease-in-out;
+        transform: translateY(-2px); }
     .getStarted .text__container .btns__container .info-button {
       padding: 11px 32px;
       border-radius: 5px;
@@ -270,6 +279,9 @@ ul li {
       border-color: transparent;
       font-family: "Gilory-Medium";
       background-color: #0d4fa6; }
+      .getStarted .text__container .btns__container .info-button:hover {
+        transition: 0.4s ease-in-out;
+        transform: translateY(-2px); }
 
 @media (max-width: 992px) {
   .btns__container {
@@ -298,186 +310,195 @@ ul li {
     flex-wrap: nowrap;
     justify-content: space-between;
     font-size: 14px; }
-  .footer .company li > i {
+  .footer .sm__container li > i {
     font-size: 24px;
     color: #707070;
     margin-right: 15px;
     text-align: left; }
+    .footer .sm__container li > i:hover {
+      color: #0081fa; }
 
-.paymentsBanner .text__wrapper {
-  color: #fff;
-  width: 510px;
-  text-align: left; }
-  .paymentsBanner .text__wrapper .main-title p {
-    font-size: 54px;
-    margin-bottom: 18px;
-    line-height: 70px;
-    font-family: "Gilory-Bold";
-    color: white; }
-  .paymentsBanner .text__wrapper > p {
-    margin: 18px 20px 50px 0;
-    margin-bottom: 57px;
-    color: white; }
-.paymentsBanner .img__wrapper {
+@media screen and (max-width: 768px) {
+  .sm__container {
+    width: 112%; } }
+.payments-page .main-header {
   position: relative;
-  z-index: 90; }
-  .paymentsBanner .img__wrapper .shop {
-    position: relative;
-    bottom: -27px;
-    width: 100%; }
-  .paymentsBanner .img__wrapper .phone {
-    position: absolute;
-    left: -13%;
-    top: 55%;
-    right: auto;
-    bottom: 0;
-    z-index: 5;
-    width: 150px; }
-
-.pay-features .row {
-  margin: 125px auto; }
-.pay-features .grey-liner {
-  background-size: 100%;
-  background-repeat: no-repeat;
-  position: absolute;
-  left: 0;
-  top: 0;
-  right: 0;
   bottom: auto;
-  z-index: 10;
-  height: 100px;
-  margin-top: -60px;
-  background-position: 0 0;
-  background-image: url("../images/grey-liner.svg");
-  z-index: 1000;
-  position: absolute;
-  background-size: 100%;
-  background-repeat: no-repeat; }
-.pay-features .text__wrapper {
-  width: 440px;
-  padding: 50px 0;
-  text-align: left; }
-  .pay-features .text__wrapper h3 {
-    font-size: 32px !important; }
-
-.in-store .row {
+  z-index: 0;
+  overflow: visible;
+  height: 750px;
+  min-height: 750px;
+  padding-bottom: 0;
+  background-image: linear-gradient(135deg, #4c46f4, #0081fa); }
+  .payments-page .main-header .paymentsBanner {
+    padding-top: 100px; }
+    .payments-page .main-header .paymentsBanner .text__wrapper {
+      color: #fff;
+      width: 510px;
+      text-align: left; }
+      .payments-page .main-header .paymentsBanner .text__wrapper .main-title p {
+        font-size: 54px;
+        margin-bottom: 18px;
+        line-height: 70px;
+        font-family: "Gilory-Bold";
+        color: white; }
+      .payments-page .main-header .paymentsBanner .text__wrapper > p {
+        margin: 18px 20px 50px 0;
+        margin-bottom: 57px;
+        color: white; }
+    .payments-page .main-header .paymentsBanner .img__wrapper {
+      position: relative;
+      z-index: 10; }
+      .payments-page .main-header .paymentsBanner .img__wrapper .shop {
+        position: relative;
+        bottom: -27px;
+        width: 100%; }
+      .payments-page .main-header .paymentsBanner .img__wrapper .phone {
+        position: absolute;
+        left: -13%;
+        top: 55%;
+        right: auto;
+        bottom: 0;
+        z-index: 5;
+        width: 150px; }
+.payments-page .pay-features {
+  display: block;
+  overflow: hidden;
+  height: auto;
+  max-width: none;
+  padding-top: 88px;
+  background-color: transparent;
+  margin-top: -88px; }
+  .payments-page .pay-features .row {
+    margin: 125px auto; }
+  .payments-page .pay-features .grey-liner {
+    position: absolute;
+    display: block;
+    left: 0;
+    top: 0;
+    right: 0;
+    z-index: 0;
+    height: 618px;
+    background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b3aafc8e86b_grey%20line.svg");
+    background-size: 100%;
+    background-repeat: no-repeat; }
+  .payments-page .pay-features .text__wrapper {
+    width: 440px;
+    padding: 50px 0;
+    text-align: left; }
+    .payments-page .pay-features .text__wrapper h3 {
+      font-size: 32px !important; }
+.payments-page .in-store .row {
   margin: 125px auto; }
-.in-store .title__container {
+.payments-page .in-store .title__container {
   margin-bottom: 125px;
   text-align: center; }
-  .in-store .title__container h1 {
+  .payments-page .in-store .title__container h1 {
     font-size: 54px; }
-  .in-store .title__container p {
+  .payments-page .in-store .title__container p {
     font-size: 18px; }
-  .in-store .title__container .split-divider {
+  .payments-page .in-store .title__container .split-divider {
     display: block;
     width: 48px;
     height: 4px;
     margin: 15px auto 60px;
     background-color: #0f76f9; }
-.in-store .text__wrapper {
+.payments-page .in-store .text__wrapper {
   text-align: left;
   padding: 50px 0;
   width: 440px; }
-  .in-store .text__wrapper p:first-child {
+  .payments-page .in-store .text__wrapper p:first-child {
     font-size: 18px; }
-  .in-store .text__wrapper h2 {
+  .payments-page .in-store .text__wrapper h2 {
     margin-bottom: 30px; }
-
-.pay-overall-fs {
+.payments-page .pay-overall-fs {
   padding: 100px 0; }
-  .pay-overall-fs .row {
+  .payments-page .pay-overall-fs .row {
     padding: 0 30px; }
-  .pay-overall-fs .img__container {
+  .payments-page .pay-overall-fs .img__container {
     width: 105px; }
-    .pay-overall-fs .img__container img {
+    .payments-page .pay-overall-fs .img__container img {
       width: 100%;
       height: 100%; }
-  .pay-overall-fs .img__title {
+  .payments-page .pay-overall-fs .img__title {
     margin: 30px 0 16px;
     font-size: 24px;
     letter-spacing: -0.19px; }
-  .pay-overall-fs .img__txt {
+  .payments-page .pay-overall-fs .img__txt {
     max-width: 440px;
     font-size: 18px; }
 
-.management, .management-lookUps .title__container, .management-manageTeam, .management-track, .management-insights, .management-integration, .managemnt-transition, .index-trust .video__container .title__container {
+.shop-management-page .management, .shop-management-page .management-lookUps .title__container, .shop-management-page .management-manageTeam, .shop-management-page .management-track, .shop-management-page .management-insights, .shop-management-page .management-integration, .shop-management-page .managemnt-transition, .shop-management-page .index-page .index-trust .video__container .title__container, .index-page .index-trust .video__container .shop-management-page .title__container {
   margin-bottom: 125px;
   text-align: center; }
-  .management h1, .management-lookUps .title__container h1, .management-manageTeam h1, .management-track h1, .management-insights h1, .management-integration h1, .managemnt-transition h1, .index-trust .video__container .title__container h1 {
+  .shop-management-page .management h1, .shop-management-page .management-lookUps .title__container h1, .shop-management-page .management-manageTeam h1, .shop-management-page .management-track h1, .shop-management-page .management-insights h1, .shop-management-page .management-integration h1, .shop-management-page .managemnt-transition h1, .shop-management-page .index-page .index-trust .video__container .title__container h1, .index-page .index-trust .video__container .shop-management-page .title__container h1 {
     font-size: 36px !important; }
-  .management p, .management-lookUps .title__container p, .management-manageTeam p, .management-track p, .management-insights p, .management-integration p, .managemnt-transition p, .index-trust .video__container .title__container p {
+  .shop-management-page .management p, .shop-management-page .management-lookUps .title__container p, .shop-management-page .management-manageTeam p, .shop-management-page .management-track p, .shop-management-page .management-insights p, .shop-management-page .management-integration p, .shop-management-page .managemnt-transition p, .shop-management-page .index-page .index-trust .video__container .title__container p, .index-page .index-trust .video__container .shop-management-page .title__container p {
     font-size: 18px; }
-  .management .split-divider, .management-lookUps .title__container .split-divider, .management-manageTeam .split-divider, .management-track .split-divider, .management-insights .split-divider, .management-integration .split-divider, .managemnt-transition .split-divider, .index-trust .video__container .title__container .split-divider {
+  .shop-management-page .management .split-divider, .shop-management-page .management-lookUps .title__container .split-divider, .shop-management-page .management-manageTeam .split-divider, .shop-management-page .management-track .split-divider, .shop-management-page .management-insights .split-divider, .shop-management-page .management-integration .split-divider, .shop-management-page .managemnt-transition .split-divider, .shop-management-page .index-page .index-trust .video__container .title__container .split-divider, .index-page .index-trust .video__container .shop-management-page .title__container .split-divider {
     display: block;
     width: 48px;
     height: 4px;
     margin: 15px auto 60px;
     background-color: #0f76f9; }
-
-.main-header {
+.shop-management-page .main-header {
   padding-top: 50px;
   position: relative;
   overflow: visible;
   z-index: 0; }
-  .main-header .management-banner .text__wrapper {
+  .shop-management-page .main-header .management-banner .text__wrapper {
     text-align: center;
     color: #fff; }
-    .main-header .management-banner .text__wrapper h1 {
+    .shop-management-page .main-header .management-banner .text__wrapper h1 {
       font-size: 54px; }
-    .main-header .management-banner .text__wrapper p {
+    .shop-management-page .main-header .management-banner .text__wrapper p {
       color: #fff; }
-
-.management-fs {
+.shop-management-page .management-fs {
   padding: 100px 0;
   background-color: #f9f9fb;
   z-index: 0;
   position: relative;
   overflow: visible;
   height: auto; }
-  .management-fs .container {
+  .shop-management-page .management-fs .container {
     position: relative;
     padding: 50px 0 100px; }
-  .management-fs .grey-liner {
+  .shop-management-page .management-fs .grey-liner {
     background-size: 100%;
     background-repeat: no-repeat;
     position: absolute;
+    display: block;
     left: 0;
     top: 0;
     right: 0;
-    bottom: auto;
-    z-index: 10;
-    height: 100px;
-    margin-top: -60px;
+    z-index: 0;
+    height: 618px;
     background-position: 0 0;
     background-image: url("../images/grey-liner.svg");
-    z-index: 1000;
-    position: absolute;
     background-size: 100%;
     background-repeat: no-repeat; }
-
-.management .icon__wrapper .icon__container:hover {
+.shop-management-page .management .icon__wrapper .icon__container:hover {
   opacity: 0.5;
   transition: 0.5s ease-in-out; }
-.management .icon__wrapper .icon__container i {
+.shop-management-page .management .icon__wrapper .icon__container i {
   color: #25c286;
   font-size: 30px;
   margin-right: 5px;
   background-color: white; }
-.management .text__wrapper {
+.shop-management-page .management .text__wrapper {
   color: #fff;
   width: 510px;
   text-align: left;
   margin-bottom: 57px; }
-  .management .text__wrapper .main-title h3 {
+  .shop-management-page .management .text__wrapper .main-title h3 {
     font-size: 24px !important;
     margin-bottom: 18px;
     line-height: 24px;
     font-family: "Gilory-Middle"; }
-  .management .text__wrapper > p {
+  .shop-management-page .management .text__wrapper > p {
     margin: 18px 20px 50px 0;
     margin-bottom: 15px; }
-  .management .text__wrapper button {
+  .shop-management-page .management .text__wrapper button {
     padding: 11px 32px;
     border-radius: 5px;
     background-color: #25c286;
@@ -487,102 +508,99 @@ ul li {
     font-weight: 600;
     border-color: transparent;
     font-family: "Gilory-Medium"; }
-  .management .text__wrapper .icon__container:hover {
+    .shop-management-page .management .text__wrapper button:hover {
+      transition: 0.4s ease-in-out;
+      transform: translateY(-2px); }
+  .shop-management-page .management .text__wrapper .icon__container:hover {
     opacity: 0.5;
     transition: 0.5s ease-in-out; }
-  .management .text__wrapper .icon__container i {
+  .shop-management-page .management .text__wrapper .icon__container i {
     color: #25c286;
     font-size: 30px;
     margin-right: 5px;
     background-color: white; }
-
-.management-getPaid {
+.shop-management-page .management-getPaid {
   z-index: 0;
   overflow: visible; }
-
-.management-lookUps {
+.shop-management-page .management-lookUps {
   padding: 100px 0;
   overflow: visible;
   height: auto;
   z-index: 0; }
-  .management-lookUps .img__title {
+  .shop-management-page .management-lookUps .img__title {
     margin-top: 43px;
     font-size: 20px;
     font-weight: 700;
     color: black; }
-
-.management-manageTeam {
+.shop-management-page .management-manageTeam {
   height: 360px;
   height: 804px;
   padding-top: 70px; }
-  .management-manageTeam img {
+  .shop-management-page .management-manageTeam img {
     height: 100%; }
-  .management-manageTeam .text__wrapper {
+  .shop-management-page .management-manageTeam .text__wrapper {
     color: #fff;
     width: 510px;
     text-align: left;
     margin-bottom: 57px; }
-    .management-manageTeam .text__wrapper h3 {
+    .shop-management-page .management-manageTeam .text__wrapper h3 {
       font-size: 24px !important;
       margin-bottom: 18px;
       line-height: 24px;
       font-family: "Gilory-Bold";
       color: #333; }
-    .management-manageTeam .text__wrapper > p {
+    .shop-management-page .management-manageTeam .text__wrapper > p {
       margin: 18px 20px 50px 0;
       margin-bottom: 15px; }
-
-.management-track .text__wrapper {
+.shop-management-page .management-track .text__wrapper {
   color: #fff;
   width: 510px;
   text-align: left;
   margin-bottom: 57px; }
-  .management-track .text__wrapper h3 {
+  .shop-management-page .management-track .text__wrapper h3 {
     font-size: 24px !important;
     margin-bottom: 18px;
     line-height: 24px;
     font-family: "Gilory-Bold";
     color: #333; }
-  .management-track .text__wrapper > p {
+  .shop-management-page .management-track .text__wrapper > p {
     margin: 18px 20px 50px 0;
     margin-bottom: 15px; }
-
-.management-insights .img__title {
+.shop-management-page .management-insights .img__title {
   margin: 30px 0 16px;
   font-size: 20px;
   letter-spacing: -0.19px;
   font-family: "Gilory-Bold"; }
-.management-insights .img__text {
+.shop-management-page .management-insights .img__text {
   max-width: 440px;
   font-size: 18px; }
-
-.management-integration .row {
+.shop-management-page .management-integration .row {
   display: flex;
   position: relative;
   margin: 50px auto 140px;
   display: flex;
   max-width: 980px; }
-.management-integration .blue {
+.shop-management-page .management-integration .blue {
   height: 245px;
   position: relative;
   z-index: 2;
   order: 1;
   flex: 0 0 57%;
   background-color: transparent; }
-  .management-integration .blue .text__wrapper {
+  .shop-management-page .management-integration .blue .text__wrapper {
     width: 100%;
     height: 100%;
     padding: 40px 30px 40px 40px;
     align-items: center;
     background-color: #ebf4ff;
     text-align: left; }
-    .management-integration .blue .text__wrapper p {
+    .shop-management-page .management-integration .blue .text__wrapper p {
       color: #474f57;
       font-size: 16px;
       line-height: 26px;
       font-family: "Gilory-Medium";
       margin-right: 10px; }
-.management-integration .divs {
+.shop-management-page .management-integration .divs {
   position: absolute;
   right: 0;
   top: 0;
@@ -590,7 +608,7 @@ ul li {
   left: auto;
   display: flex;
   align-items: center; }
-  .management-integration .divs > div {
+  .shop-management-page .management-integration .divs > div {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -603,69 +621,69 @@ ul li {
     padding: 40px;
     border-radius: 5px;
     box-shadow: 0 0 30px 0 rgba(0, 0, 0, 0.1); }
-    .management-integration .divs > div img {
+    .shop-management-page .management-integration .divs > div img {
       width: 100%; }
-.management-integration .flipped {
+.shop-management-page .management-integration .flipped {
   margin-left: auto;
   padding: 40px 40px 40px 130px; }
-  .management-integration .flipped .text__wrapper {
+  .shop-management-page .management-integration .flipped .text__wrapper {
     margin-left: auto;
     padding: 40px 40px 40px 130px; }
-  .management-integration .flipped .divs {
+  .shop-management-page .management-integration .flipped .divs {
     right: auto;
     left: 0;
     z-index: 4; }
-  .management-integration .flipped .last .first img,
-  .management-integration .flipped .last .second img {
+  .shop-management-page .management-integration .flipped .last .first img,
+  .shop-management-page .management-integration .flipped .last .second img {
     width: 66%; }
-
-.managemnt-transition .col-md-4 {
+.shop-management-page .managemnt-transition .col-md-4 {
   padding: 0 30px;
   width: 326px; }
-.managemnt-transition .img__title {
+.shop-management-page .managemnt-transition .img__title {
   margin: 30px 0 16px;
   font-size: 20px;
   letter-spacing: -0.19px;
   font-family: "Gilory-Bold"; }
-.managemnt-transition .img__text {
+.shop-management-page .managemnt-transition .img__text {
   max-width: 440px;
   font-size: 16px;
   font-family: "Gilory-Regular"; }
-  .managemnt-transition .img__text .icon__container:hover {
+  .shop-management-page .managemnt-transition .img__text .icon__container:hover {
     opacity: 0.5;
     transition: 0.5s ease-in-out; }
-  .managemnt-transition .img__text .icon__container i {
+  .shop-management-page .managemnt-transition .img__text .icon__container i {
     color: #25c286;
     font-size: 30px;
     margin-right: 5px;
     background-color: white; }
 
-.text__wrapper {
+.about-page .text__wrapper {
   text-align: left; }
-  .text__wrapper h3 {
+  .about-page .text__wrapper h3 {
     margin-bottom: 16px;
     color: #2c3641;
     font-size: 32px;
     line-height: 48px;
     letter-spacing: 0; }
-
-.main-header {
+.about-page .main-header {
   position: relative;
-  padding-top: 200px; }
-  .main-header .about-banner {
+  padding: 200px 0; }
+  .about-page .main-header .about-banner {
     position: relative;
-    z-index: 1; }
-    .main-header .about-banner .text__wrapper {
+    z-index: 0;
+    width: 96%;
+    background: linear-gradient(135deg, #4c46f4, #0081fa), linear-gradient(90deg, #4669f4, #469af4); }
+    .about-page .main-header .about-banner .text__wrapper {
       text-align: center;
       width: 95%;
       font-weight: bold;
       color: #fff;
       padding: 130px 11px 0; }
-      .main-header .about-banner .text__wrapper h1 {
+      .about-page .main-header .about-banner .text__wrapper h1 {
         font-size: 44px;
         line-height: 53px;
         color: #fff; }
-  .main-header .about-banner-img {
+  .about-page .main-header .about-banner-img {
     position: absolute;
     left: 0;
     top: 0;
@@ -676,7 +694,7 @@ ul li {
     background-color: #f0f2f5;
     -o-object-fit: cover;
     object-fit: cover; }
-    .main-header .about-banner-img img {
+    .about-page .main-header .about-banner-img img {
       position: absolute;
       top: -341px;
       display: block;
@@ -684,18 +702,16 @@ ul li {
       height: 100%;
       -o-object-fit: cover;
       object-fit: cover; }
-
-.ourVision {
+.about-page .ourVision {
   position: relative;
   z-index: 1;
-  margin-top: -370px;
   padding: 130px 0;
   text-align: left; }
-  .ourVision a {
+  .about-page .ourVision a {
     color: #7b848f !important;
     font-size: 18px;
     font-family: "Gilory-Light"; }
-  .ourVision .text__wrapper h3 {
+  .about-page .ourVision .text__wrapper h3 {
     margin-bottom: 16px;
     color: #2c3641;
     font-size: 32px;
@@ -703,20 +719,19 @@ ul li {
     font-weight: 700;
     text-align: left;
     letter-spacing: 0; }
-
-.ourFounder {
+.about-page .ourFounder {
   position: relative;
   height: 602px;
   margin-bottom: 150px; }
-  .ourFounder .our-founder-img {
+  .about-page .ourFounder .our-founder-img {
     margin-right: 20%;
     width: 94%;
     margin-top: -50px; }
-    .ourFounder .our-founder-img img {
+    .about-page .ourFounder .our-founder-img img {
       position: relative;
       width: 100%;
       height: 100%; }
-  .ourFounder .our-founder-img__caption-overlay {
+  .about-page .ourFounder .our-founder-img__caption-overlay {
     position: absolute;
     padding: 8px;
     color: #fff;
@@ -725,7 +740,7 @@ ul li {
     bottom: 0;
     width: max-content;
     margin-left: 12px; }
-  .ourFounder .our-founder-text__container {
+  .about-page .ourFounder .our-founder-text__container {
     color: #fff;
     width: 500px;
     height: 320px;
@@ -741,24 +756,22 @@ ul li {
     bottom: 0;
     transform: translate(0, -50%);
     z-index: 1; }
-    .ourFounder .our-founder-text__container .our-founder-text, .ourFounder .our-founder-text__container p {
+    .about-page .ourFounder .our-founder-text__container .our-founder-text, .about-page .ourFounder .our-founder-text__container p {
       text-align: left;
       position: relative;
       color: #fff; }
-
-.ourTeam a {
+.about-page .ourTeam a {
   color: #7b848f !important;
   font-size: 18px;
   font-family: "Gilory-Light"; }
-
-.supportedBy {
+.about-page .supportedBy {
   height: 600px; }
-  .supportedBy .supportedBy-text__container {
+  .about-page .supportedBy .supportedBy-text__container {
     text-align: center;
     padding: 40px; }
-  .supportedBy .supportedBy-companies__container {
+  .about-page .supportedBy .supportedBy-companies__container {
     margin-top: 20px; }
-    .supportedBy .supportedBy-companies__container a {
+    .about-page .supportedBy .supportedBy-companies__container a {
       padding: 15px;
       height: 245px;
       width: 245px;
@@ -766,21 +779,20 @@ ul li {
       justify-content: center;
       background-color: #fff;
       box-shadow: 1px 1px 13.77px 0 rgba(0, 0, 0, 0.1); }
-      .supportedBy .supportedBy-companies__container a .img__container {
+      .about-page .supportedBy .supportedBy-companies__container a .img__container {
         padding: 55px 0; }
-        .supportedBy .supportedBy-companies__container a .img__container img :not(:last-child) {
+        .about-page .supportedBy .supportedBy-companies__container a .img__container img :not(:last-child) {
           width: 100%; }
-      .supportedBy .supportedBy-companies__container a .eventures {
+      .about-page .supportedBy .supportedBy-companies__container a .eventures {
         padding: 90px 0; }
-      .supportedBy .supportedBy-companies__container a .f- {
+      .about-page .supportedBy .supportedBy-companies__container a .f- {
         padding: 65px 0; }
-
-.about-maintainanceForMoms {
+.about-page .about-maintainanceForMoms {
   height: 983px;
   padding: 25px 0 100px;
   align-items: center;
   justify-content: center; }
-  .about-maintainanceForMoms .mom-violet-banner {
+  .about-page .about-maintainanceForMoms .mom-violet-banner {
     background-color: #461e42;
     height: 250px;
     width: 100%;
@@ -789,16 +801,16 @@ ul li {
     background-position: 50% 50%;
     background-size: contain;
     background-repeat: no-repeat; }
-  .about-maintainanceForMoms .mom__container {
+  .about-page .about-maintainanceForMoms .mom__container {
     height: 50%;
     background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b43cbc8e86a_mom-bg.jpg");
     background-position: 0 0, 50% 26%;
     background-size: auto, cover;
     background-repeat: repeat, no-repeat; }
-    .about-maintainanceForMoms .mom__container .text__container {
+    .about-page .about-maintainanceForMoms .mom__container .text__container {
       width: 50%;
       padding: 150px 0 50px; }
-      .about-maintainanceForMoms .mom__container .text__container .main-button {
+      .about-page .about-maintainanceForMoms .mom__container .text__container .main-button {
         padding: 11px 32px;
         border-radius: 5px;
         background-color: #25c286;
@@ -808,13 +820,16 @@ ul li {
         font-weight: 600;
         border-color: transparent;
         font-family: "Gilory-Medium"; }
-      .about-maintainanceForMoms .mom__container .text__container h3 {
+        .about-page .about-maintainanceForMoms .mom__container .text__container .main-button:hover {
+          transition: 0.4s ease-in-out;
+          transform: translateY(-2px); }
+      .about-page .about-maintainanceForMoms .mom__container .text__container h3 {
         color: #fff; }
-  .about-maintainanceForMoms .under_moms {
+  .about-page .about-maintainanceForMoms .under_moms {
     margin: 50px auto;
     padding: 25px 0;
     text-align: left; }
-    .about-maintainanceForMoms .under_moms .col-md-6 p {
+    .about-page .about-maintainanceForMoms .under_moms .col-md-6 p {
       font-size: 18px;
       color: #474f57;
       font-family: "Gilory-Medium"; }
@@ -925,40 +940,39 @@ ul li {
   list-style: none;
   margin-bottom: 5px; }
 
-.management .title__container, .management-lookUps .title__container .title__container, .management-manageTeam .title__container, .management-track .title__container, .management-insights .title__container, .management-integration .title__container, .managemnt-transition .title__container, .index-trust .video__container .title__container .title__container {
+.shop-management-page .management .title__container, .shop-management-page .management-lookUps .title__container .title__container, .shop-management-page .management-manageTeam .title__container, .shop-management-page .management-track .title__container, .shop-management-page .management-insights .title__container, .shop-management-page .management-integration .title__container, .shop-management-page .managemnt-transition .title__container, .index-page .index-trust .video__container .title__container .title__container {
   margin-bottom: 125px;
   text-align: center; }
-  .management .title__container h1, .management-lookUps .title__container .title__container h1, .management-manageTeam .title__container h1, .management-track .title__container h1, .management-insights .title__container h1, .management-integration .title__container h1, .managemnt-transition .title__container h1, .index-trust .video__container .title__container .title__container h1 {
+  .shop-management-page .management .title__container h1, .shop-management-page .management-lookUps .title__container .title__container h1, .shop-management-page .management-manageTeam .title__container h1, .shop-management-page .management-track .title__container h1, .shop-management-page .management-insights .title__container h1, .shop-management-page .management-integration .title__container h1, .shop-management-page .managemnt-transition .title__container h1, .index-page .index-trust .video__container .title__container .title__container h1 {
     font-size: 54px; }
-  .management .title__container p, .management-lookUps .title__container .title__container p, .management-manageTeam .title__container p, .management-track .title__container p, .management-insights .title__container p, .management-integration .title__container p, .managemnt-transition .title__container p, .index-trust .video__container .title__container .title__container p {
+  .shop-management-page .management .title__container p, .shop-management-page .management-lookUps .title__container .title__container p, .shop-management-page .management-manageTeam .title__container p, .shop-management-page .management-track .title__container p, .shop-management-page .management-insights .title__container p, .shop-management-page .management-integration .title__container p, .shop-management-page .managemnt-transition .title__container p, .index-page .index-trust .video__container .title__container .title__container p {
     font-size: 18px; }
-  .management .title__container .split-divider, .management-lookUps .title__container .title__container .split-divider, .management-manageTeam .title__container .split-divider, .management-track .title__container .split-divider, .management-insights .title__container .split-divider, .management-integration .title__container .split-divider, .managemnt-transition .title__container .split-divider, .index-trust .video__container .title__container .title__container .split-divider {
+  .shop-management-page .management .title__container .split-divider, .shop-management-page .management-lookUps .title__container .title__container .split-divider, .shop-management-page .management-manageTeam .title__container .split-divider, .shop-management-page .management-track .title__container .split-divider, .shop-management-page .management-insights .title__container .split-divider, .shop-management-page .management-integration .title__container .split-divider, .shop-management-page .managemnt-transition .title__container .split-divider, .index-page .index-trust .video__container .title__container .title__container .split-divider {
     display: block;
     width: 48px;
     height: 4px;
     margin: 15px auto 60px;
     background-color: #0f76f9; }
 
-p {
+.index-page p {
   font-size: 18px;
   font-family: "Gilory-Medium"; }
-
-.main-shop-header {
+.index-page .main-shop-header {
   height: auto; }
-  .main-shop-header .indexBanner {
+  .index-page .main-shop-header .indexBanner {
     color: #fff;
     position: relative; }
-    .main-shop-header .indexBanner .text__wrapper {
+    .index-page .main-shop-header .indexBanner .text__wrapper {
       text-align: left;
       margin-top: 0; }
-      .main-shop-header .indexBanner .text__wrapper p {
+      .index-page .main-shop-header .indexBanner .text__wrapper p {
         color: #fff; }
-      .main-shop-header .indexBanner .text__wrapper .main-title h1 {
+      .index-page .main-shop-header .indexBanner .text__wrapper .main-title h1 {
         font-size: 54px;
         margin-bottom: 18px; }
-      .main-shop-header .indexBanner .text__wrapper .btns__container {
+      .index-page .main-shop-header .indexBanner .text__wrapper .btns__container {
         margin-top: 70px; }
-        .main-shop-header .indexBanner .text__wrapper .btns__container .main-button {
+        .index-page .main-shop-header .indexBanner .text__wrapper .btns__container .main-button {
           padding: 11px 32px;
           border-radius: 5px;
           background-color: #25c286;
@@ -968,7 +982,10 @@ p {
           font-weight: 600;
           border-color: transparent;
           font-family: "Gilory-Medium"; }
-        .main-shop-header .indexBanner .text__wrapper .btns__container .info-button {
+          .index-page .main-shop-header .indexBanner .text__wrapper .btns__container .main-button:hover {
+            transition: 0.4s ease-in-out;
+            transform: translateY(-2px); }
+        .index-page .main-shop-header .indexBanner .text__wrapper .btns__container .info-button {
           padding: 11px 32px;
           border-radius: 5px;
           background-color: #25c286;
@@ -980,8 +997,10 @@ p {
           font-family: "Gilory-Medium";
           background-color: #0d4fa6;
           margin-left: 10px; }
-
-.index-trust {
+          .index-page .main-shop-header .indexBanner .text__wrapper .btns__container .info-button:hover {
+            transition: 0.4s ease-in-out;
+            transform: translateY(-2px); }
+.index-page .index-trust {
   position: relative;
   z-index: 0;
   display: block;
@@ -991,7 +1010,7 @@ p {
   margin-top: -60px;
   padding-top: 88px;
   background-color: transparent; }
-  .index-trust .basic-liner {
+  .index-page .index-trust .basic-liner {
     position: absolute;
     background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b3aafc8e86b_grey%20line.svg");
     background-size: 100%;
@@ -1001,74 +1020,72 @@ p {
     right: 0;
     z-index: 0;
     height: 618px; }
-  .index-trust .video__container {
+  .index-page .index-trust .video__container {
     position: relative; }
-    .index-trust .video__container .index-rate {
+    .index-page .index-trust .video__container .index-rate {
       text-align: center;
       margin-bottom: 40px; }
-      .index-trust .video__container .index-rate .index-rate-stars i {
+      .index-page .index-trust .video__container .index-rate .index-rate-stars i {
         color: #ffbc00;
         font-size: 24px; }
-      .index-trust .video__container .index-rate p {
+      .index-page .index-trust .video__container .index-rate p {
         color: rgba(44, 54, 65, 0.45);
         font-size: 18px; }
-    .index-trust .video__container .index-slider {
+    .index-page .index-trust .video__container .index-slider {
       background-color: cadetblue;
       width: 750px;
       height: 438px; }
-      .index-trust .video__container .index-slider #shop-carousel {
+      .index-page .index-trust .video__container .index-slider #shop-carousel {
         margin: 0 -125px !important; }
-      .index-trust .video__container .index-slider .carousel-control-prev-icon,
-      .index-trust .video__container .index-slider .carousel-control-next-icon {
+      .index-page .index-trust .video__container .index-slider .carousel-control-prev-icon,
+      .index-page .index-trust .video__container .index-slider .carousel-control-next-icon {
         background-color: cadetblue; }
-      .index-trust .video__container .index-slider .carousel-item {
+      .index-page .index-trust .video__container .index-slider .carousel-item {
         height: 350px; }
-      .index-trust .video__container .index-slider .carousel-indicators li {
+      .index-page .index-trust .video__container .index-slider .carousel-indicators li {
         width: 10px;
         height: 10px;
         border-radius: 100%;
         margin: 10px; }
-      .index-trust .video__container .index-slider .carousel-indicators {
+      .index-page .index-trust .video__container .index-slider .carousel-indicators {
         bottom: -50px; }
-
-.index-features {
+.index-page .index-features {
   padding-top: 100px;
   text-align: left; }
-  .index-features .content__wrapper {
+  .index-page .index-features .content__wrapper {
     margin: 50px auto 125px; }
-    .index-features .content__wrapper .f-text__container {
+    .index-page .index-features .content__wrapper .f-text__container {
       padding: 30px 0; }
-      .index-features .content__wrapper .f-text__container p:first-child {
+      .index-page .index-features .content__wrapper .f-text__container p:first-child {
         margin-bottom: 12px;
         color: rgba(51, 51, 51, 0.74);
         font-size: 18px; }
-      .index-features .content__wrapper .f-text__container h2 {
+      .index-page .index-features .content__wrapper .f-text__container h2 {
         margin-bottom: 16px;
         color: #2c3641;
         font-size: 32px; }
-      .index-features .content__wrapper .f-text__container p:last-child {
+      .index-page .index-features .content__wrapper .f-text__container p:last-child {
         color: #474f57;
         font-size: 16px;
         font-weight: 500; }
-      .index-features .content__wrapper .f-text__container a {
+      .index-page .index-features .content__wrapper .f-text__container a {
         font-size: 16px;
         font-family: "Gilory-Light"; }
-  .index-features .cw-last {
+  .index-page .index-features .cw-last {
     height: 310px; }
-    .index-features .cw-last .f-img__container {
+    .index-page .index-features .cw-last .f-img__container {
       height: 310px;
       margin-left: 60px; }
-      .index-features .cw-last .f-img__container img {
+      .index-page .index-features .cw-last .f-img__container img {
         height: 100%; }
-
-.index-more-featurs {
+.index-page .index-more-featurs {
   padding-top: 50px;
   padding-bottom: 50px;
   background-color: #2e5ef7; }
-  .index-more-featurs .more-featurs__container .row .text__container {
+  .index-page .index-more-featurs .more-featurs__container .row .text__container {
     padding: 100px 0;
     text-align: left; }
-    .index-more-featurs .more-featurs__container .row .text__container button {
+    .index-page .index-more-featurs .more-featurs__container .row .text__container button {
       padding: 11px 32px;
       border-radius: 5px;
       background-color: #25c286;
@@ -1079,23 +1096,26 @@ p {
       border-color: transparent;
       font-family: "Gilory-Medium";
       margin-left: 30px; }
-    .index-more-featurs .more-featurs__container .row .text__container h2 {
+      .index-page .index-more-featurs .more-featurs__container .row .text__container button:hover {
+        transition: 0.4s ease-in-out;
+        transform: translateY(-2px); }
+    .index-page .index-more-featurs .more-featurs__container .row .text__container h2 {
       color: #fff;
       font-size: 36px;
       line-height: 41px;
       margin-bottom: 20px; }
-    .index-more-featurs .more-featurs__container .row .text__container p {
+    .index-page .index-more-featurs .more-featurs__container .row .text__container p {
       color: #fff;
       font-size: 16px;
       font-family: "Gilory-Medium";
       width: 90%;
       margin-left: 0; }
-    .index-more-featurs .more-featurs__container .row .text__container .btns__container {
+    .index-page .index-more-featurs .more-featurs__container .row .text__container .btns__container {
       display: flex;
       flex-direction: row;
       flex-wrap: wrap;
       margin: 30px 0 50px; }
-      .index-more-featurs .more-featurs__container .row .text__container .btns__container .one__container {
+      .index-page .index-more-featurs .more-featurs__container .row .text__container .btns__container .one__container {
         display: flex;
         flex-direction: row;
         flex-wrap: nowrap;
@@ -1110,21 +1130,20 @@ p {
         font-family: "Gilory-Bold";
         line-height: 17px;
         text-decoration: none; }
-        .index-more-featurs .more-featurs__container .row .text__container .btns__container .one__container .icon__container img {
+        .index-page .index-more-featurs .more-featurs__container .row .text__container .btns__container .one__container .icon__container img {
           width: 28px;
           height: 28px;
           margin-right: 5px; }
-  .index-more-featurs .more-featurs__container .row .more-features-img img {
+  .index-page .index-more-featurs .more-featurs__container .row .more-features-img img {
     width: 100%;
     margin-top: 65px; }
-
-.index-crafted .title__container .split-divider {
+.index-page .index-crafted .title__container .split-divider {
   display: block;
   width: 48px;
   height: 4px;
   margin: 15px auto 60px;
   background-color: #0f76f9; }
-.index-crafted .title__container .cards .m-card {
+.index-page .index-crafted .title__container .cards .m-card {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -1153,89 +1172,85 @@ p {
   transition-duration: 250ms;
   color: #76838f;
   background-color: cornflowerblue; }
-  .index-crafted .title__container .cards .m-card .txt {
+  .index-page .index-crafted .title__container .cards .m-card .txt {
     position: relative;
     clear: none;
     color: #006cfa;
     font-size: 20px;
     font-family: "Gilory-Bold";
     letter-spacing: 0; }
-
 @media (max-width: 768px) {
-  .index-features .content__wrapper {
+  .index-page .index-features .content__wrapper {
     width: 100%;
     padding: 0 25px; }
-    .index-features .content__wrapper h2 {
+    .index-page .index-features .content__wrapper h2 {
       margin-bottom: 16px; }
-    .index-features .content__wrapper p {
+    .index-page .index-features .content__wrapper p {
       max-width: 440px; }
-    .index-features .content__wrapper .f-img__container {
+    .index-page .index-features .content__wrapper .f-img__container {
       width: 375px;
       height: 260px;
       margin: 30px -50px; }
-      .index-features .content__wrapper .f-img__container img {
+      .index-page .index-features .content__wrapper .f-img__container img {
         width: 100%; }
-    .index-features .content__wrapper .f-text__container {
+    .index-page .index-features .content__wrapper .f-text__container {
       width: 354px; }
-
-  .index-more-featurs .text__container {
+  .index-page .index-more-featurs .text__container {
     display: block; }
-    .index-more-featurs .text__container h2 {
+    .index-page .index-more-featurs .text__container h2 {
       font-size: 35px; }
-    .index-more-featurs .text__container .btns__container {
+    .index-page .index-more-featurs .text__container .btns__container {
       height: auto; }
-      .index-more-featurs .text__container .btns__container .one__container {
+      .index-page .index-more-featurs .text__container .btns__container .one__container {
         margin: 10px 0 0; }
-  .index-more-featurs .more-features-img {
+  .index-page .index-more-featurs .more-features-img {
     margin-top: 80px; } }
-body {
-  background-color: #f0f2f5 !important; }
 
-.vertical-split {
+.pricing-page body {
+  background-color: #f0f2f5 !important; }
+.pricing-page .vertical-split {
   margin: 20px;
   border-style: none none solid;
   border-width: 1px;
   border-color: rgba(119, 132, 140, 0.33); }
-
-p {
+.pricing-page p {
   color: rgba(44, 54, 65, 0.8);
   font-size: 14px; }
-
-.pricing-header {
+.pricing-page .pricing-header {
   position: relative;
   background: linear-gradient(135deg, #4c46f4, #0081fa), linear-gradient(90deg, #4669f4, #469af4); }
-  .pricing-header .nav-trigger__wrapper {
+  .pricing-page .pricing-header .nav-trigger__wrapper {
     position: fixed;
     top: 0;
     z-index: 2;
     transition: transform 0.4s;
     width: 100%;
     padding: 0 130px; }
-    .pricing-header .nav-trigger__wrapper nav {
+    .pricing-page .pricing-header .nav-trigger__wrapper nav {
       padding: 20px 0 10px;
       display: flex;
       color: black; }
-      .pricing-header .nav-trigger__wrapper nav .links__container {
+      .pricing-page .pricing-header .nav-trigger__wrapper nav .links__container {
         margin-right: 50px; }
-        .pricing-header .nav-trigger__wrapper nav .links__container .nav-link {
+        .pricing-page .pricing-header .nav-trigger__wrapper nav .links__container .nav-link {
           margin-left: 15px;
           padding: 13px;
           color: #fff;
           border-bottom: 4px solid transparent; }
-        .pricing-header .nav-trigger__wrapper nav .links__container .bottomed:hover {
+        .pricing-page .pricing-header .nav-trigger__wrapper nav .links__container .bottomed:hover {
           border-bottom: 4px solid #fff; }
-        .pricing-header .nav-trigger__wrapper nav .links__container .dropdown-menu .dropdown-item:active .activated {
+        .pricing-page .pricing-header .nav-trigger__wrapper nav .links__container .dropdown-menu .dropdown-item:active .activated {
           color: #f48646;
           background-color: #fff; }
-        .pricing-header .nav-trigger__wrapper nav .links__container .dropdown-menu .dropdown-item i {
+        .pricing-page .pricing-header .nav-trigger__wrapper nav .links__container .dropdown-menu .dropdown-item i {
           margin: auto 10px auto 2px; }
-        .pricing-header .nav-trigger__wrapper nav .links__container .dropdown-menu .dropdown-item .fa-th-large {
+        .pricing-page .pricing-header .nav-trigger__wrapper nav .links__container .dropdown-menu .dropdown-item .fa-th-large {
           color: #4669f4; }
-        .pricing-header .nav-trigger__wrapper nav .links__container .dropdown-menu .dropdown-item .fa-dollar-sign {
+        .pricing-page .pricing-header .nav-trigger__wrapper nav .links__container .dropdown-menu .dropdown-item .fa-dollar-sign {
           color: lightgreen; }
-      .pricing-header .nav-trigger__wrapper nav .navbar-brand {
+      .pricing-page .pricing-header .nav-trigger__wrapper nav .navbar-brand {
         margin-left: 50px; }
-      .pricing-header .nav-trigger__wrapper nav .main-button {
+      .pricing-page .pricing-header .nav-trigger__wrapper nav .main-button {
         padding: 11px 32px;
         border-radius: 5px;
         background-color: #25c286;
@@ -1246,30 +1261,33 @@ p {
         border-color: transparent;
         font-family: "Gilory-Medium";
         margin-top: 4px; }
-
-.pricing {
+        .pricing-page .pricing-header .nav-trigger__wrapper nav .main-button:hover {
+          transition: 0.4s ease-in-out;
+          transform: translateY(-2px); }
+.pricing-page .pricing {
   padding-top: 30px;
-  background: linear-gradient(135deg, #4c46f4, #0081fa), linear-gradient(90deg, #4669f4, #469af4);
-  height: 1540px; }
-  .pricing .container .pricing-text {
+  background: linear-gradient(135deg, #4c46f4, #0081fa), linear-gradient(90deg, #4669f4, #469af4); }
+  .pricing-page .pricing .container .pricing-text {
     height: 70px;
     text-align: center;
     width: 100%;
     margin-bottom: 10px; }
-    .pricing .container .pricing-text h1 {
+    .pricing-page .pricing .container .pricing-text h1 {
       font-size: 54px;
       color: #fff;
       line-height: 70px;
       font-family: "Gilory-Bold"; }
-  .pricing .container .card-group {
+  .pricing-page .pricing .container .card-group {
     background-color: #fff;
     text-align: center;
-    height: 905px; }
-    .pricing .container .card-group .card {
+    overflow: hidden; }
+    .pricing-page .pricing .container .card-group .row {
+      width: 100%; }
+    .pricing-page .pricing .container .card-group .card {
       border: 1px transparent solid;
       box-shadow: 0px 10px 11px 3px rgba(40, 43, 49, 0.12);
       text-align: center; }
-      .pricing .container .card-group .card .card-body h2 {
+      .pricing-page .pricing .container .card-group .card .card-body h2 {
         font-size: 54px;
         color: #006cfa;
         line-height: 70px;
@@ -1277,10 +1295,10 @@ p {
         padding-top: 30px;
         margin-bottom: 8px;
         font-family: "Gilory-Medium"; }
-      .pricing .container .card-group .card .card-body p {
+      .pricing-page .pricing .container .card-group .card .card-body p {
         font-family: "Gilory-Bold";
         line-height: 5px; }
-      .pricing .container .card-group .card .card-body .card-text ul > li {
+      .pricing-page .pricing .container .card-group .card .card-body .card-text ul > li {
         color: rgba(44, 54, 65, 0.8);
         font-size: 14px;
         line-height: 32px;
@@ -1288,25 +1306,25 @@ p {
         text-align: center;
         text-transform: none;
         font-family: "Gilory-Medium"; }
-      .pricing .container .card-group .card .card-body .card-text .card-title {
+      .pricing-page .pricing .container .card-group .card .card-body .card-text .card-title {
         font-weight: 700;
         font-family: "Gilory-Medium";
         font-size: 24px;
         color: #38454c;
         letter-spacing: 0.6px; }
-      .pricing .container .card-group .card .card-body .card-text {
+      .pricing-page .pricing .container .card-group .card .card-body .card-text {
         height: 280px; }
-        .pricing .container .card-group .card .card-body .card-text p {
+        .pricing-page .pricing .container .card-group .card .card-body .card-text p {
           font-family: "Gilory-Regular";
           font-weight: 200; }
-        .pricing .container .card-group .card .card-body .card-text h5 {
+        .pricing-page .pricing .container .card-group .card .card-body .card-text h5 {
           color: #38454c;
           font-size: 20px;
           line-height: 28px;
           font-family: "Gilory-Medium";
           letter-spacing: 0.6px;
           text-transform: none; }
-        .pricing .container .card-group .card .card-body .card-text button {
+        .pricing-page .pricing .container .card-group .card .card-body .card-text button {
           margin-top: 20px;
           padding: 11px 32px;
           border-radius: 5px;
@@ -1317,13 +1335,15 @@ p {
           font-weight: 600;
           border-color: transparent;
           font-family: "Gilory-Medium"; }
-
-.enterprisePricing {
+          .pricing-page .pricing .container .card-group .card .card-body .card-text button:hover {
+            transition: 0.4s ease-in-out;
+            transform: translateY(-2px); }
+.pricing-page .enterprisePricing {
   margin-top: 30px; }
-  .enterprisePricing p {
+  .pricing-page .enterprisePricing p {
     color: #fff;
     font-family: "Gilory-Regular"; }
-  .enterprisePricing .enterprisePricing__container {
+  .pricing-page .enterprisePricing .enterprisePricing__container {
     width: 100%;
     height: 194px;
     display: flex;
@@ -1331,7 +1351,7 @@ p {
     flex-wrap: nowrap;
     background-color: #fff;
     color: #0f76f9; }
-    .enterprisePricing .enterprisePricing__container .enterprise-dark-text {
+    .pricing-page .enterprisePricing .enterprisePricing__container .enterprise-dark-text {
       background-image: url("../images/enterprise-back.png");
       background-color: transparent;
       padding: 35px;
@@ -1341,25 +1361,25 @@ p {
       width: 30%;
       text-align: left;
       z-index: 2; }
-    .enterprisePricing .enterprisePricing__container .features {
+    .pricing-page .enterprisePricing .enterprisePricing__container .features {
       width: 60%;
       height: 100%;
       column-count: 2;
       padding: 50px 20px;
       background-color: #fff;
       text-align: left; }
-      .enterprisePricing .enterprisePricing__container .features ul > li {
+      .pricing-page .enterprisePricing .enterprisePricing__container .features ul > li {
         color: rgba(44, 54, 65, 0.8);
         font-size: 16px;
         font-family: "Gilory-Bold"; }
-    .enterprisePricing .enterprisePricing__container .lets-talk {
+    .pricing-page .enterprisePricing .enterprisePricing__container .lets-talk {
       width: 30%; }
-      .enterprisePricing .enterprisePricing__container .lets-talk .lets-talk__container {
+      .pricing-page .enterprisePricing .enterprisePricing__container .lets-talk .lets-talk__container {
         border-left: 1px solid #333;
         padding: 35px;
         margin: 31px auto;
         font-size: 24px; }
-        .enterprisePricing .enterprisePricing__container .lets-talk .lets-talk__container button {
+        .pricing-page .enterprisePricing .enterprisePricing__container .lets-talk .lets-talk__container button {
           padding: 11px 32px;
           border-radius: 5px;
           background-color: #25c286;
@@ -1369,34 +1389,36 @@ p {
           font-weight: 600;
           border-color: transparent;
           font-family: "Gilory-Medium"; }
-
-.questions {
+          .pricing-page .enterprisePricing .enterprisePricing__container .lets-talk .lets-talk__container button:hover {
+            transition: 0.4s ease-in-out;
+            transform: translateY(-2px); }
+.pricing-page .questions {
   height: max-content;
   background-color: transparent;
   color: #333;
   padding: 130px 0; }
-  .questions input[type="checkbox"] {
+  .pricing-page .questions input[type="checkbox"] {
     display: none; }
-  .questions .questions-text {
+  .pricing-page .questions .questions-text {
     text-align: center;
     margin-bottom: 40px; }
-    .questions .questions-text h1 {
+    .pricing-page .questions .questions-text h1 {
       font-size: 36px;
       line-height: 48px;
       color: #2c3641;
       font-family: "Gilory-Bold"; }
-  .questions .container {
+  .pricing-page .questions .container {
     text-align: left;
     padding: 0px;
     font-family: "Gilory-Bold";
     font-size: 18px; }
-    .questions .container .questions__container {
+    .pricing-page .questions .container .questions__container {
       background-color: #fff;
       width: 90%;
       padding: 40px; }
-      .questions .container .questions__container .faq-drawer {
+      .pricing-page .questions .container .questions__container .faq-drawer {
         margin: 30px auto; }
-        .questions .container .questions__container .faq-drawer .faq-drawer__title {
+        .pricing-page .questions .container .questions__container .faq-drawer .faq-drawer__title {
           border-top: #b9bec5 1px solid;
           cursor: pointer;
           display: block;
@@ -1405,7 +1427,7 @@ p {
           transition: all 0.25s ease-out;
           font-size: 20px;
           font-family: "Gilory-Bold"; }
-          .questions .container .questions__container .faq-drawer .faq-drawer__title::after {
+          .pricing-page .questions .container .questions__container .faq-drawer .faq-drawer__title::after {
             border-style: solid;
             border-width: 3px 3px 0 0;
             content: " ";
@@ -1420,38 +1442,37 @@ p {
             color: #b9bec5;
             height: 13px;
             width: 13px; }
-        .questions .container .questions__container .faq-drawer .first-drawer {
+        .pricing-page .questions .container .questions__container .faq-drawer .first-drawer {
           border-top: transparent 1px solid; }
-        .questions .container .questions__container .faq-drawer .last-drawer {
+        .pricing-page .questions .container .questions__container .faq-drawer .last-drawer {
           border-bottom: #b9bec5 1px solid; }
-        .questions .container .questions__container .faq-drawer .faq-drawer__content-wrapper {
+        .pricing-page .questions .container .questions__container .faq-drawer .faq-drawer__content-wrapper {
           font-size: 1.25em;
           line-height: 1.4em;
           max-height: 0px;
           overflow: hidden;
           transition: 0.25s ease-in-out; }
-          .questions .container .questions__container .faq-drawer .faq-drawer__content-wrapper .faq-drawer__content p {
+          .pricing-page .questions .container .questions__container .faq-drawer .faq-drawer__content-wrapper .faq-drawer__content p {
             font-family: "Gilory-Regular";
             font-size: 18px;
             color: #757373; }
-        .questions .container .questions__container .faq-drawer .faq-drawer__trigger:checked + .faq-drawer__title + .faq-drawer__content-wrapper {
+        .pricing-page .questions .container .questions__container .faq-drawer .faq-drawer__trigger:checked + .faq-drawer__title + .faq-drawer__content-wrapper {
           max-height: 350px; }
-        .questions .container .questions__container .faq-drawer .faq-drawer__trigger:checked + .faq-drawer__title::after {
+        .pricing-page .questions .container .questions__container .faq-drawer .faq-drawer__trigger:checked + .faq-drawer__title::after {
           transform: rotate(-45deg);
           transition: 0.25s ease-in-out; }
-
-.spin {
+.pricing-page .spin {
   height: 489px;
   background-image: linear-gradient(135deg, #4c46f4, #006cfa);
   color: #fff;
   margin-bottom: 50px;
   padding: 128px 0; }
-  .spin .spin__container {
+  .pricing-page .spin .spin__container {
     width: 500px;
     text-align: center; }
-    .spin .spin__container h5, .spin .spin__container button {
+    .pricing-page .spin .spin__container h5, .pricing-page .spin .spin__container button {
       margin-bottom: 40px; }
-    .spin .spin__container button {
+    .pricing-page .spin .spin__container button {
       padding: 11px 32px;
       border-radius: 5px;
       background-color: #25c286;
@@ -1461,35 +1482,63 @@ p {
       font-weight: 600;
       border-color: transparent;
       font-family: "Gilory-Medium"; }
-    .spin .spin__container a {
+      .pricing-page .spin .spin__container button:hover {
+        transition: 0.4s ease-in-out;
+        transform: translateY(-2px); }
+    .pricing-page .spin .spin__container a {
       text-decoration: underline;
       color: #fff; }
-
 @media only screen and (max-width: 600px) {
-  .container {
+  .pricing-page .container {
     padding: 80px; } }
-.scroll-down .nav-trigger__wrapper {
+.pricing-page .scroll-down .nav-trigger__wrapper {
   transform: translate3d(0, -100%, 0); }
-
-.scroll-up .main-header {
+.pricing-page .scroll-up .main-header {
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.35); }
-  .scroll-up .main-header .nav-trigger__wrapper {
+  .pricing-page .scroll-up .main-header .nav-trigger__wrapper {
     background-color: #fff;
     transform: none;
     padding: 0; }
-    .scroll-up .main-header .nav-trigger__wrapper .links__container .nav-link {
+    .pricing-page .scroll-up .main-header .nav-trigger__wrapper .links__container .nav-link {
       color: black; }
-
 @media all and (max-width: 992px) {
-  .navbar .nav-item .dropdown-menu {
+  .pricing-page .navbar .nav-item .dropdown-menu {
     display: none;
     margin-top: 0; }
-  .navbar .nav-item:hover .dropdown-menu {
+  .pricing-page .navbar .nav-item:hover .dropdown-menu {
     display: block; } }
 @media screen and (max-width: 768px) {
-  .pricing .pricing-text h1 {
+  .pricing-page .pricing .pricing-text h1 {
     font-size: 44px; }
-  .pricing .card-group .card {
-    width: 768px; } }
+  .pricing-page .pricing .card-group .card {
+    margin-bottom: 30px; }
+    .pricing-page .pricing .card-group .card .card-body {
+      width: 80%; }
+    .pricing-page .pricing .card-group .card p {
+      font-size: 18px; }
+  .pricing-page .pricing .enterprisePricing .enterprisePricing__container {
+    flex-direction: column;
+    width: 100%;
+    height: auto; }
+    .pricing-page .pricing .enterprisePricing .enterprisePricing__container .enterprise-dark-text,
+    .pricing-page .pricing .enterprisePricing .enterprisePricing__container .features .lets-talk {
+      width: 100%;
+      text-align: center; }
+    .pricing-page .pricing .enterprisePricing .enterprisePricing__container .lets-talk .lets-talk__container {
+      border-top: 1px solid black;
+      border-left: none; }
+      .pricing-page .pricing .enterprisePricing .enterprisePricing__container .lets-talk .lets-talk__container button {
+        padding: 11px 20px; }
+    .pricing-page .pricing .enterprisePricing .enterprisePricing__container .features {
+      columns: 1;
+      text-align: center;
+      padding: 20px; } }
+@media screen and (max-width: 576px) {
+  .pricing-page .pricing .pricing-text h1 {
+    font-size: 28px !important; }
+  .pricing-page .pricing .enterprisePricing .lets-talk {
+    width: 100%; }
+    .pricing-page .pricing .enterprisePricing .lets-talk .lets-talk__container {
+      width: 60%; } }
 
 /*# sourceMappingURL=style.css.map */

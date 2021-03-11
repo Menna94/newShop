@@ -15,12 +15,21 @@
       font-size: 14px;
     }
   }
-  .company {
+  .sm__container {
     li > i {
       font-size: 24px;
       color: #707070;
       margin-right: 15px;
       text-align: left;
+      &:hover {
+        color: #0081fa;
+      }
     }
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .sm__container {
+    width: 112%;
   }
 }
