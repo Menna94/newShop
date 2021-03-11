@@ -61,14 +61,15 @@ ul li {
 }
 //   MIXINS
 @mixin main-button {
-  padding: 16px 32px;
+  padding: 11px 32px;
   border-radius: 5px;
-  background-color: #21a371;
+  background-color: #25c286;
   box-shadow: 0 2px 6px 0 rgba(0, 0, 0, 0.13);
   color: #fff;
   font-size: 16px;
   font-weight: 600;
   border-color: transparent;
+  font-family: "Gilory-Medium";
 }
 
 @mixin info-button {
@@ -103,12 +104,15 @@ ul li {
   top: 0;
   right: 0;
   bottom: auto;
-  // z-index: 10;
+  z-index: 10;
   height: 100px;
   margin-top: -60px;
   background-position: 0 0;
   background-image: url("../images/grey-liner.svg");
   z-index: 1000;
+  position: absolute;
+  background-size: 100%;
+  background-repeat: no-repeat;
 }
 
 @mixin blue-liner {
@@ -192,7 +196,7 @@ ul li {
     i {
       color: #25c286;
       font-size: 30px;
-      margin-right: 10px;
+      margin-right: 5px;
       background-color: white;
     }
   }

@@ -2,14 +2,15 @@
   position: relative;
   background: linear-gradient(135deg, #4c46f4, #0081fa),
     linear-gradient(90deg, #4669f4, #469af4);
+  height: auto;
   .nav-trigger__wrapper {
     position: fixed;
     top: 0;
-    z-index: 6;
+    z-index: 100;
     transition: transform 0.4s;
     width: 100%;
     nav {
-      padding: 20px 0 10px;
+      padding: 20px 0;
       display: flex;
       color: black;
       .links__container {
@@ -26,7 +27,6 @@
         .dropdown-menu {
           .dropdown-item {
             &:active .activated {
-              color: #f48646;
               background-color: #fff;
             }
             i {
@@ -62,8 +62,13 @@
     .nav-trigger__wrapper {
       background-color: #fff;
       transform: none;
-      .links__container .nav-link {
-        color: black;
+      .links__container {
+        .nav-link {
+          color: black;
+        }
+        .main-button {
+          color: #fff;
+        }
       }
     }
   }

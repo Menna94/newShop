@@ -1,5 +1,5 @@
 body {
-  background-color: #f0f2f5;
+  background-color: #f0f2f5 !important;
 }
 .vertical-split {
   margin: 20px;
@@ -11,11 +11,6 @@ p {
   color: rgba(44, 54, 65, 0.8);
   font-size: 14px;
 }
-// .main-header {
-//   background: linear-gradient(135deg, #4c46f4, #0081fa),
-//     linear-gradient(90deg, #4669f4, #469af4);
-//   height: 0px;
-// }
 .pricing-header {
   position: relative;
   background: linear-gradient(135deg, #4c46f4, #0081fa),
@@ -26,6 +21,7 @@ p {
     z-index: 2;
     transition: transform 0.4s;
     width: 100%;
+    padding: 0 130px;
     nav {
       padding: 20px 0 10px;
       display: flex;
@@ -72,56 +68,80 @@ p {
 
 .pricing {
   padding-top: 30px;
-  background-image: url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460bdc88c8e868_main-img2.png"),
-    linear-gradient(135deg, #4c46f4, #0081fa),
+  background: linear-gradient(135deg, #4c46f4, #0081fa),
     linear-gradient(90deg, #4669f4, #469af4);
   height: 1540px;
   .container {
     .pricing-text {
       height: 70px;
       text-align: center;
-      font-size: 54px;
-      color: #fff;
-      line-height: 70px;
+      width: 100%;
+      margin-bottom: 10px;
+      h1 {
+        font-size: 54px;
+        color: #fff;
+        line-height: 70px;
+        font-family: "Gilory-Bold";
+      }
     }
-    .pricing_cards {
+
+    .card-group {
       background-color: #fff;
       text-align: center;
       height: 905px;
-
-      .pCards__container {
-        height: 905px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: center;
-        .pCard {
-          padding: 50px 30px;
-          // background-image: linear-gradient(180deg, #fff, #fff);
-          box-shadow: 1px 0 25px 5px rgba(40, 43, 49, 0.12);
-          text-align: center;
-          border-left: 1px solid transparent;
-          .pCard-body {
-            h2 {
-              font-size: 54px;
-              color: #006cfa;
-              line-height: 70px;
-              font-weight: 600;
-              padding-top: 30px;
-              margin-bottom: 8px;
+      .card {
+        border: 1px transparent solid;
+        box-shadow: 0px 10px 11px 3px rgba(40, 43, 49, 0.12);
+        text-align: center;
+        .card-body {
+          h2 {
+            font-size: 54px;
+            color: #006cfa;
+            line-height: 70px;
+            font-weight: 600;
+            padding-top: 30px;
+            margin-bottom: 8px;
+            font-family: "Gilory-Medium";
+          }
+          p {
+            font-family: "Gilory-Bold";
+            line-height: 5px;
+          }
+          .card-text {
+            ul > li {
+              color: rgba(44, 54, 65, 0.8);
+              font-size: 14px;
+              line-height: 32px;
+              font-weight: 700;
+              text-align: center;
+              text-transform: none;
+              font-family: "Gilory-Medium";
             }
-            .pCard-text {
-              height: 490px;
-              padding: 0 30px;
-              margin-bottom: 50px;
+            .card-title {
+              font-weight: 700;
+              font-family: "Gilory-Medium";
+              font-size: 24px;
+              color: #38454c;
+              letter-spacing: 0.6px;
             }
-            .card-text-bottom {
-              height: 280px;
-
-              button {
-                margin-top: 20px;
-                @include main-button;
-              }
+          }
+          .card-text {
+            height: 280px;
+            p {
+              font-family: "Gilory-Regular";
+              font-weight: 200;
+            }
+            h5 {
+              color: #38454c;
+              font-size: 20px;
+              line-height: 28px;
+              font-family: "Gilory-Medium";
+              letter-spacing: 0.6px;
+              text-transform: none;
+            }
+            button {
+              margin-top: 20px;
+              @include main-button;
             }
           }
         }
@@ -147,7 +167,7 @@ p {
     .enterprise-dark-text {
       background-image: url("../images/enterprise-back.png");
       background-color: transparent;
-      padding: 16px 30px 64px 40px;
+      padding: 35px;
       background-size: cover;
       color: #fff;
       background-position: 50% 50%;
@@ -172,8 +192,8 @@ p {
       width: 30%;
       .lets-talk__container {
         border-left: 1px solid #333;
-        padding: 30px 50px 16px 100px;
-        margin: 34px 0 26px;
+        padding: 35px;
+        margin: 31px auto;
         font-size: 24px;
         button {
           @include main-button;
@@ -188,12 +208,11 @@ p {
     display: none;
   }
   height: max-content;
-  background-color: #fff;
+  background-color: transparent;
   color: #333;
   padding: 130px 0;
   .questions-text {
     text-align: center;
-    background-color: #fff;
     margin-bottom: 40px;
     h1 {
       font-size: 36px;
@@ -207,52 +226,66 @@ p {
     padding: 0px;
     font-family: "Gilory-Bold";
     font-size: 18px;
-    .faq-drawer {
-      margin-bottom: 30px;
-      background-color: seashell;
-      .faq-drawer__title {
-        border-bottom: #000 1px solid;
-        cursor: pointer;
-        display: block;
-        padding: 10px 0;
-        position: relative;
-        transition: all 0.25s ease-out;
-        &::after {
-          border-style: solid;
-          border-width: 3px 3px 0 0;
-          content: " ";
-          float: right;
-          left: -2px;
+    .questions__container {
+      background-color: #fff;
+      width: 90%;
+      padding: 40px;
+
+      .faq-drawer {
+        margin: 30px auto;
+
+        .faq-drawer__title {
+          border-top: #b9bec5 1px solid;
+          cursor: pointer;
+          display: block;
+          padding: 20px 0;
           position: relative;
-          right: 20px;
-          top: 2px;
-          transform: rotate(135deg);
-          transition: 0.35s ease-in-out;
-          vertical-align: top;
-          color: rgb(99, 97, 97);
-          height: 13px;
-          width: 13px;
+          transition: all 0.25s ease-out;
+          font-size: 20px;
+          font-family: "Gilory-Bold";
+          &::after {
+            border-style: solid;
+            border-width: 3px 3px 0 0;
+            content: " ";
+            float: right;
+            left: -2px;
+            position: relative;
+            right: 20px;
+            top: 2px;
+            transform: rotate(135deg);
+            transition: 0.35s ease-in-out;
+            vertical-align: top;
+            color: #b9bec5;
+            height: 13px;
+            width: 13px;
+          }
         }
-      }
-      .faq-drawer__content-wrapper {
-        font-size: 1.25em;
-        line-height: 1.4em;
-        max-height: 0px;
-        overflow: hidden;
-        transition: 0.25s ease-in-out;
-        .faq-drawer__content p {
-          font-family: "Gilory-Regular";
-          font-size: 18px;
-          color: rgb(117, 115, 115);
+        .first-drawer {
+          border-top: transparent 1px solid;
         }
-      }
-      .faq-drawer__trigger {
-        &:checked + .faq-drawer__title + .faq-drawer__content-wrapper {
-          max-height: 350px;
+        .last-drawer {
+          border-bottom: #b9bec5 1px solid;
         }
-        &:checked + .faq-drawer__title::after {
-          transform: rotate(-45deg);
+        .faq-drawer__content-wrapper {
+          font-size: 1.25em;
+          line-height: 1.4em;
+          max-height: 0px;
+          overflow: hidden;
           transition: 0.25s ease-in-out;
+          .faq-drawer__content p {
+            font-family: "Gilory-Regular";
+            font-size: 18px;
+            color: rgb(117, 115, 115);
+          }
+        }
+        .faq-drawer__trigger {
+          &:checked + .faq-drawer__title + .faq-drawer__content-wrapper {
+            max-height: 350px;
+          }
+          &:checked + .faq-drawer__title::after {
+            transform: rotate(-45deg);
+            transition: 0.25s ease-in-out;
+          }
         }
       }
     }
@@ -264,10 +297,11 @@ p {
   background-image: linear-gradient(135deg, #4c46f4, #006cfa);
   color: #fff;
   margin-bottom: 50px;
+  padding: 128px 0;
+
   .spin__container {
     width: 500px;
     text-align: center;
-    padding: 128px 0;
     & h5,
     & button {
       margin-bottom: 40px;
@@ -296,6 +330,7 @@ p {
     .nav-trigger__wrapper {
       background-color: #fff;
       transform: none;
+      padding: 0;
       .links__container .nav-link {
         color: black;
       }
@@ -314,6 +349,18 @@ p {
           display: block;
         }
       }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .pricing {
+    .pricing-text {
+      h1 {
+        font-size: 44px;
+      }
+    }
+    .card-group .card {
+      width: 768px;
     }
   }
 }
