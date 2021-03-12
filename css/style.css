@@ -63,6 +63,11 @@ ul li {
     margin: 15px auto 60px;
     background-color: #0f76f9; }
 
+@media screen and (max-width: 768px) {
+  .icon__container i {
+    font-size: 18px !important; }
+  .icon__container a {
+    font-size: 16px; } }
 .main-header {
   position: relative;
   z-index: 0;
@@ -73,6 +78,9 @@ ul li {
     top: 0;
     z-index: 100;
     transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
     width: 100%; }
     .main-header .nav-trigger__wrapper nav {
       padding: 20px 0;
@@ -110,6 +118,12 @@ ul li {
         margin-top: 4px; }
         .main-header .nav-trigger__wrapper nav .main-button:hover {
           transition: 0.4s ease-in-out;
+          -webkit-transition: 0.4s ease-in-out;
+          -moz-transition: 0.4s ease-in-out;
+          -o-transition: 0.4s ease-in-out;
+          -webkit-transform: translateY(-2px);
+          -moz-transform: translateY(-2px);
+          -o-transform: translateY(-2px);
           transform: translateY(-2px); }
 
 .scroll-down .nav-trigger__wrapper {
@@ -126,6 +140,12 @@ ul li {
     .scroll-up .main-header .nav-trigger__wrapper .links__container .main-button {
       color: #fff; }
 
+@media all and (min-width: 992px) {
+  .navbar .nav-item .dropdown-menu {
+    display: none;
+    margin-top: 0; }
+  .navbar .nav-item:hover .dropdown-menu {
+    display: block; } }
 .main-banner {
   width: 100%;
   position: relative;
@@ -164,6 +184,12 @@ ul li {
       background-color: chocolate; }
       .main-banner .text__wrapper .btns__container .main-button:hover {
         transition: 0.4s ease-in-out;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -o-transform: translateY(-2px);
         transform: translateY(-2px); } }
 .maintainanceForMoms {
   background-image: linear-gradient(180deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("https://uploads-ssl.webflow.com/5c4b6a813b460bd9bdc8e84f/5c4b6a813b460b43cbc8e86a_mom-bg.jpg");
@@ -202,6 +228,12 @@ ul li {
         background-color: #25c286; }
         .maintainanceForMoms .mom__container .text__container button:hover {
           transition: 0.4s ease-in-out;
+          -webkit-transition: 0.4s ease-in-out;
+          -moz-transition: 0.4s ease-in-out;
+          -o-transition: 0.4s ease-in-out;
+          -webkit-transform: translateY(-2px);
+          -moz-transform: translateY(-2px);
+          -o-transform: translateY(-2px);
           transform: translateY(-2px); }
 
 /* Get Started */
@@ -229,12 +261,21 @@ ul li {
       margin: 36px auto; }
       .get-quickly .text__container .main-button:hover {
         transition: 0.4s ease-in-out;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -o-transform: translateY(-2px);
         transform: translateY(-2px); }
     .get-quickly .text__container p:last-child {
       color: #c2deff; }
       .get-quickly .text__container p:last-child a {
         color: #c2deff; }
 
+@media screen and (max-width: 768px) {
+  .get-quickly .text__container {
+    flex-direction: column; } }
 .getStarted {
   background-image: linear-gradient(135deg, #4c46f4, #0081fa);
   margin-bottom: 150px;
@@ -267,6 +308,12 @@ ul li {
       font-family: "Gilory-Medium"; }
       .getStarted .text__container .btns__container .main-button:hover {
         transition: 0.4s ease-in-out;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -o-transform: translateY(-2px);
         transform: translateY(-2px); }
     .getStarted .text__container .btns__container .info-button {
       padding: 11px 32px;
@@ -281,6 +328,12 @@ ul li {
       background-color: #0d4fa6; }
       .getStarted .text__container .btns__container .info-button:hover {
         transition: 0.4s ease-in-out;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -o-transform: translateY(-2px);
         transform: translateY(-2px); }
 
 @media (max-width: 992px) {
@@ -325,7 +378,7 @@ ul li {
   position: relative;
   bottom: auto;
   z-index: 0;
-  overflow: visible;
+  overflow: hidden;
   height: 750px;
   min-height: 750px;
   padding-bottom: 0;
@@ -362,10 +415,8 @@ ul li {
         z-index: 5;
         width: 150px; }
 .payments-page .pay-features {
-  display: block;
   overflow: hidden;
   height: auto;
-  max-width: none;
   padding-top: 88px;
   background-color: transparent;
   margin-top: -88px; }
@@ -388,6 +439,17 @@ ul li {
     text-align: left; }
     .payments-page .pay-features .text__wrapper h3 {
       font-size: 32px !important; }
+    .payments-page .pay-features .text__wrapper .icon__container:hover {
+      opacity: 0.5;
+      -webkit-transition: 0.5s ease-in-out;
+      -moz-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
+      transition: 0.5s ease-in-out; }
+    .payments-page .pay-features .text__wrapper .icon__container i {
+      color: #25c286;
+      font-size: 30px;
+      margin-right: 5px;
+      background-color: white; }
 .payments-page .in-store .row {
   margin: 125px auto; }
 .payments-page .in-store .title__container {
@@ -428,6 +490,98 @@ ul li {
     max-width: 440px;
     font-size: 18px; }
 
+@media screen and (max-width: 768px) {
+  .payments-page .main-header .paymentsBanner {
+    padding-top: 0; }
+    .payments-page .main-header .paymentsBanner .text__wrapper {
+      width: 100%;
+      padding: 0; }
+      .payments-page .main-header .paymentsBanner .text__wrapper p {
+        font-size: 16px; }
+      .payments-page .main-header .paymentsBanner .text__wrapper .main-title p {
+        font-size: 44px; }
+  .payments-page .pay-features {
+    margin-top: -62px; }
+    .payments-page .pay-features .container {
+      padding-top: 0; }
+      .payments-page .pay-features .container .row {
+        flex-wrap: nowrap !important; }
+        .payments-page .pay-features .container .row .text__wrapper {
+          width: 50%; }
+        .payments-page .pay-features .container .row .img img {
+          height: 60%;
+          margin-top: 40px; }
+  .payments-page .in-store {
+    padding: 0;
+    margin: 0; }
+    .payments-page .in-store .title__container .container .row {
+      flex-wrap: nowrap; }
+      .payments-page .in-store .title__container .container .row .text__wrapper {
+        width: 50%; }
+      .payments-page .in-store .title__container .container .row .img__wrapper img {
+        height: 60%;
+        margin-top: 40px; }
+  .payments-page .pay-overall-fs .img__container {
+    width: 40%; }
+  .payments-page .pay-overall-fs .img__title h3 {
+    font-size: 20px !important; }
+  .payments-page .pay-overall-fs .img__txt {
+    font-size: 16px; }
+
+  .main-banner {
+    background-image: linear-gradient(135deg, #4c46f4, #0081fa); } }
+@media screen and (max-width: 576px) {
+  .payments-page .main-header .paymentsBanner {
+    padding-top: 0; }
+    .payments-page .main-header .paymentsBanner .text__wrapper {
+      padding: 0; }
+      .payments-page .main-header .paymentsBanner .text__wrapper .main-title p {
+        font-size: 32px; }
+    .payments-page .main-header .paymentsBanner .img__wrapper {
+      width: 80%; }
+      .payments-page .main-header .paymentsBanner .img__wrapper .phone {
+        left: 2%;
+        top: 50%;
+        width: 103px; }
+  .payments-page .pay-features .container .row {
+    flex-direction: column; }
+    .payments-page .pay-features .container .row .text__wrapper {
+      order: 2;
+      text-align: center;
+      width: 95% !important;
+      padding: 0; }
+      .payments-page .pay-features .container .row .text__wrapper h3 {
+        font-size: 24px; }
+    .payments-page .pay-features .container .row .img {
+      order: 1;
+      width: 90%; }
+  .payments-page .in-store {
+    padding: 0;
+    margin: 0; }
+    .payments-page .in-store .title__container h1 {
+      font-size: 30px !important; }
+    .payments-page .in-store .title__container h5 {
+      font-size: 16px; }
+    .payments-page .in-store .container .row {
+      flex-direction: column !important; }
+      .payments-page .in-store .container .row .text__wrapper {
+        order: 2;
+        width: 90% !important;
+        padding: 0px;
+        text-align: center; }
+        .payments-page .in-store .container .row .text__wrapper h2 {
+          width: max-content; }
+        .payments-page .in-store .container .row .text__wrapper p {
+          font-size: 16px; }
+  .payments-page .pay-overall-fs .container .row .img__container {
+    width: 15%; }
+  .payments-page .pay-overall-fs .container .row .img__title h3 {
+    font-size: 18px !important; }
+  .payments-page .pay-overall-fs .container .row .img__txt {
+    font-size: 14px; }
+
+  .main-banner {
+    background-image: linear-gradient(135deg, #4c46f4, #0081fa); } }
 .shop-management-page .management, .shop-management-page .management-lookUps .title__container, .shop-management-page .management-manageTeam, .shop-management-page .management-track, .shop-management-page .management-insights, .shop-management-page .management-integration, .shop-management-page .managemnt-transition, .shop-management-page .index-page .index-trust .video__container .title__container, .index-page .index-trust .video__container .shop-management-page .title__container {
   margin-bottom: 125px;
   text-align: center; }
@@ -463,6 +617,16 @@ ul li {
   .shop-management-page .management-fs .container {
     position: relative;
     padding: 50px 0 100px; }
+    .shop-management-page .management-fs .container .img__container img {
+      width: 60px; }
+    .shop-management-page .management-fs .container .img__title {
+      margin-top: 43px;
+      font-size: 20px; }
+    .shop-management-page .management-fs .container .img__text {
+      text-align: center;
+      color: #474f57;
+      font-size: 16px;
+      width: 80%; }
   .shop-management-page .management-fs .grey-liner {
     background-size: 100%;
     background-repeat: no-repeat;
@@ -479,6 +643,9 @@ ul li {
     background-repeat: no-repeat; }
 .shop-management-page .management .icon__wrapper .icon__container:hover {
   opacity: 0.5;
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
   transition: 0.5s ease-in-out; }
 .shop-management-page .management .icon__wrapper .icon__container i {
   color: #25c286;
@@ -510,9 +677,18 @@ ul li {
     font-family: "Gilory-Medium"; }
     .shop-management-page .management .text__wrapper button:hover {
       transition: 0.4s ease-in-out;
+      -webkit-transition: 0.4s ease-in-out;
+      -moz-transition: 0.4s ease-in-out;
+      -o-transition: 0.4s ease-in-out;
+      -webkit-transform: translateY(-2px);
+      -moz-transform: translateY(-2px);
+      -o-transform: translateY(-2px);
       transform: translateY(-2px); }
   .shop-management-page .management .text__wrapper .icon__container:hover {
     opacity: 0.5;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out; }
   .shop-management-page .management .text__wrapper .icon__container i {
     color: #25c286;
@@ -650,6 +826,9 @@ ul li {
   font-family: "Gilory-Regular"; }
   .shop-management-page .managemnt-transition .img__text .icon__container:hover {
     opacity: 0.5;
+    -webkit-transition: 0.5s ease-in-out;
+    -moz-transition: 0.5s ease-in-out;
+    -o-transition: 0.5s ease-in-out;
     transition: 0.5s ease-in-out; }
   .shop-management-page .managemnt-transition .img__text .icon__container i {
     color: #25c286;
@@ -822,6 +1001,12 @@ ul li {
         font-family: "Gilory-Medium"; }
         .about-page .about-maintainanceForMoms .mom__container .text__container .main-button:hover {
           transition: 0.4s ease-in-out;
+          -webkit-transition: 0.4s ease-in-out;
+          -moz-transition: 0.4s ease-in-out;
+          -o-transition: 0.4s ease-in-out;
+          -webkit-transform: translateY(-2px);
+          -moz-transform: translateY(-2px);
+          -o-transform: translateY(-2px);
           transform: translateY(-2px); }
       .about-page .about-maintainanceForMoms .mom__container .text__container h3 {
         color: #fff; }
@@ -954,6 +1139,11 @@ ul li {
     margin: 15px auto 60px;
     background-color: #0f76f9; }
 
+@media screen and (max-width: 768px) {
+  .icon__container i {
+    font-size: 18px !important; }
+  .icon__container a {
+    font-size: 16px; } }
 .index-page p {
   font-size: 18px;
   font-family: "Gilory-Medium"; }
@@ -961,7 +1151,8 @@ ul li {
   height: auto; }
   .index-page .main-shop-header .indexBanner {
     color: #fff;
-    position: relative; }
+    position: relative;
+    padding-top: 100px; }
     .index-page .main-shop-header .indexBanner .text__wrapper {
       text-align: left;
       margin-top: 0; }
@@ -984,6 +1175,12 @@ ul li {
           font-family: "Gilory-Medium"; }
           .index-page .main-shop-header .indexBanner .text__wrapper .btns__container .main-button:hover {
             transition: 0.4s ease-in-out;
+            -webkit-transition: 0.4s ease-in-out;
+            -moz-transition: 0.4s ease-in-out;
+            -o-transition: 0.4s ease-in-out;
+            -webkit-transform: translateY(-2px);
+            -moz-transform: translateY(-2px);
+            -o-transform: translateY(-2px);
             transform: translateY(-2px); }
         .index-page .main-shop-header .indexBanner .text__wrapper .btns__container .info-button {
           padding: 11px 32px;
@@ -999,6 +1196,12 @@ ul li {
           margin-left: 10px; }
           .index-page .main-shop-header .indexBanner .text__wrapper .btns__container .info-button:hover {
             transition: 0.4s ease-in-out;
+            -webkit-transition: 0.4s ease-in-out;
+            -moz-transition: 0.4s ease-in-out;
+            -o-transition: 0.4s ease-in-out;
+            -webkit-transform: translateY(-2px);
+            -moz-transform: translateY(-2px);
+            -o-transform: translateY(-2px);
             transform: translateY(-2px); }
 .index-page .index-trust {
   position: relative;
@@ -1098,6 +1301,12 @@ ul li {
       margin-left: 30px; }
       .index-page .index-more-featurs .more-featurs__container .row .text__container button:hover {
         transition: 0.4s ease-in-out;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -o-transform: translateY(-2px);
         transform: translateY(-2px); }
     .index-page .index-more-featurs .more-featurs__container .row .text__container h2 {
       color: #fff;
@@ -1179,7 +1388,7 @@ ul li {
     font-size: 20px;
     font-family: "Gilory-Bold";
     letter-spacing: 0; }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   .index-page .index-features .content__wrapper {
     width: 100%;
     padding: 0 25px; }
@@ -1224,6 +1433,9 @@ ul li {
     top: 0;
     z-index: 2;
     transition: transform 0.4s;
+    -webkit-transition: transform 0.4s;
+    -moz-transition: transform 0.4s;
+    -o-transition: transform 0.4s;
     width: 100%;
     padding: 0 130px; }
     .pricing-page .pricing-header .nav-trigger__wrapper nav {
@@ -1263,6 +1475,12 @@ ul li {
         margin-top: 4px; }
         .pricing-page .pricing-header .nav-trigger__wrapper nav .main-button:hover {
           transition: 0.4s ease-in-out;
+          -webkit-transition: 0.4s ease-in-out;
+          -moz-transition: 0.4s ease-in-out;
+          -o-transition: 0.4s ease-in-out;
+          -webkit-transform: translateY(-2px);
+          -moz-transform: translateY(-2px);
+          -o-transform: translateY(-2px);
           transform: translateY(-2px); }
 .pricing-page .pricing {
   padding-top: 30px;
@@ -1337,6 +1555,12 @@ ul li {
           font-family: "Gilory-Medium"; }
           .pricing-page .pricing .container .card-group .card .card-body .card-text button:hover {
             transition: 0.4s ease-in-out;
+            -webkit-transition: 0.4s ease-in-out;
+            -moz-transition: 0.4s ease-in-out;
+            -o-transition: 0.4s ease-in-out;
+            -webkit-transform: translateY(-2px);
+            -moz-transform: translateY(-2px);
+            -o-transform: translateY(-2px);
             transform: translateY(-2px); }
 .pricing-page .enterprisePricing {
   margin-top: 30px; }
@@ -1391,6 +1615,12 @@ ul li {
           font-family: "Gilory-Medium"; }
           .pricing-page .enterprisePricing .enterprisePricing__container .lets-talk .lets-talk__container button:hover {
             transition: 0.4s ease-in-out;
+            -webkit-transition: 0.4s ease-in-out;
+            -moz-transition: 0.4s ease-in-out;
+            -o-transition: 0.4s ease-in-out;
+            -webkit-transform: translateY(-2px);
+            -moz-transform: translateY(-2px);
+            -o-transform: translateY(-2px);
             transform: translateY(-2px); }
 .pricing-page .questions {
   height: max-content;
@@ -1425,6 +1655,9 @@ ul li {
           padding: 20px 0;
           position: relative;
           transition: all 0.25s ease-out;
+          -webkit-transition: all 0.25s ease-out;
+          -moz-transition: all 0.25s ease-out;
+          -o-transition: all 0.25s ease-out;
           font-size: 20px;
           font-family: "Gilory-Bold"; }
           .pricing-page .questions .container .questions__container .faq-drawer .faq-drawer__title::after {
@@ -1438,6 +1671,9 @@ ul li {
             top: 2px;
             transform: rotate(135deg);
             transition: 0.35s ease-in-out;
+            -webkit-transition: 0.35s ease-in-out;
+            -moz-transition: 0.35s ease-in-out;
+            -o-transition: 0.35s ease-in-out;
             vertical-align: top;
             color: #b9bec5;
             height: 13px;
@@ -1484,6 +1720,12 @@ ul li {
       font-family: "Gilory-Medium"; }
       .pricing-page .spin .spin__container button:hover {
         transition: 0.4s ease-in-out;
+        -webkit-transition: 0.4s ease-in-out;
+        -moz-transition: 0.4s ease-in-out;
+        -o-transition: 0.4s ease-in-out;
+        -webkit-transform: translateY(-2px);
+        -moz-transform: translateY(-2px);
+        -o-transform: translateY(-2px);
         transform: translateY(-2px); }
     .pricing-page .spin .spin__container a {
       text-decoration: underline;

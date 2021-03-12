@@ -41,6 +41,21 @@
     .container {
       position: relative;
       padding: 50px 0 100px;
+      .img__container {
+        img {
+          width: 60px;
+        }
+      }
+      .img__title {
+        margin-top: 43px;
+        font-size: 20px;
+      }
+      .img__text {
+        text-align: center;
+        color: #474f57;
+        font-size: 16px;
+        width: 80%;
+      }
     }
     .grey-liner {
       @include grey-liner;

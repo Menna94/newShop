@@ -8,6 +8,7 @@
     .indexBanner {
       color: #fff;
       position: relative;
+      padding-top: 100px;
       .text__wrapper {
         text-align: left;
         margin-top: 0;
@@ -241,7 +242,7 @@
       }
     }
   }
-  @media (max-width: 768px) {
+  @media screen and (max-width: 768px) {
     .index-features .content__wrapper {
       width: 100%;
       padding: 0 25px;

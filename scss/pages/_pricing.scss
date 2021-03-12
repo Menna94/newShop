@@ -21,6 +21,9 @@
       top: 0;
       z-index: 2;
       transition: transform 0.4s;
+      -webkit-transition: transform 0.4s;
+      -moz-transition: transform 0.4s;
+      -o-transition: transform 0.4s;
       width: 100%;
       padding: 0 130px;
       nav {
@@ -245,6 +248,9 @@
             padding: 20px 0;
             position: relative;
             transition: all 0.25s ease-out;
+            -webkit-transition: all 0.25s ease-out;
+            -moz-transition: all 0.25s ease-out;
+            -o-transition: all 0.25s ease-out;
             font-size: 20px;
             font-family: "Gilory-Bold";
             &::after {
@@ -258,6 +264,9 @@
               top: 2px;
               transform: rotate(135deg);
               transition: 0.35s ease-in-out;
+              -webkit-transition: 0.35s ease-in-out;
+              -moz-transition: 0.35s ease-in-out;
+              -o-transition: 0.35s ease-in-out;
               vertical-align: top;
               color: #b9bec5;
               height: 13px;

@@ -72,6 +72,12 @@ ul li {
   font-family: "Gilory-Medium";
   &:hover {
     transition: 0.4s ease-in-out;
+    -webkit-transition: 0.4s ease-in-out;
+    -moz-transition: 0.4s ease-in-out;
+    -o-transition: 0.4s ease-in-out;
+    -webkit-transform: translateY(-2px);
+    -moz-transform: translateY(-2px);
+    -o-transform: translateY(-2px);
     transform: translateY(-2px);
   }
 }
@@ -208,6 +214,9 @@ ul li {
   .icon__container {
     &:hover {
       opacity: 0.5;
+      -webkit-transition: 0.5s ease-in-out;
+      -moz-transition: 0.5s ease-in-out;
+      -o-transition: 0.5s ease-in-out;
       transition: 0.5s ease-in-out;
     }
     i {
@@ -217,4 +226,16 @@ ul li {
       background-color: white;
     }
   }
+}
+@media screen and (max-width: 768px) {
+  // @mixin see-how-it-works {
+  .icon__container {
+    i {
+      font-size: 18px !important;
+    }
+    a {
+      font-size: 16px;
+    }
+  }
+  // }
 }

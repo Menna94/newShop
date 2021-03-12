@@ -25,3 +25,9 @@
     }
   }
 }
+
+@media screen and (max-width: 768px) {
+  .get-quickly .text__container {
+    flex-direction: column;
+  }
+}
